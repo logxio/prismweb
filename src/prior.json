@@ -1,0 +1,5 @@
+{
+  "alpha": 1.4279953670785694,
+  "beta": 0.5720046329214306,
+  "source": "Average of five disjoint evaluation training fold empirical Beta priors. Live inference only."
+}

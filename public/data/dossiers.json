@@ -1,0 +1,1697 @@
+[
+  {
+    "id": "climate",
+    "short": "Climate",
+    "label": "Corporate Climate & Greenwashing Audit",
+    "title": "Climate promises, public records.",
+    "subtitle": "Shell advertising and forest carbon credits: separate promises, additionality and durability.",
+    "origin": "ASA + original forest research",
+    "claims": [
+      {
+        "id": "shell",
+        "text": "Shell\u2019s 2022 UK advertising represented its overall environmental impact fairly.",
+        "time": "2022 ads, 2023 ruling",
+        "place": "United Kingdom"
+      },
+      {
+        "id": "offsets",
+        "text": "Forest offsets consistently deliver all the additional, durable climate benefits they credit.",
+        "time": "2022 to 2023 evaluations",
+        "place": "Voluntary and California forest markets"
+      },
+      {
+        "id": "some-effective",
+        "text": "Some voluntary forest conservation projects reduce deforestation during their first five years.",
+        "time": "2010s project cohorts",
+        "place": "Tropical forest projects"
+      },
+      {
+        "id": "netzero",
+        "text": "Shell\u2019s 2050 net-zero ambition has already been achieved across its value chain.",
+        "time": "2050 target versus observed record",
+        "place": "Global"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "asa",
+        "title": "ASA upheld complaints about Shell\u2019s 2022 ads",
+        "text": "The June 2023 ruling found that the ads omitted significant information about Shell\u2019s overall environmental impact. The ruling concerns these ads, not all later campaigns.",
+        "url": "https://www.asa.org.uk/rulings/shell-uk-ltd-g22-1170842-shell-uk-ltd.html",
+        "role": "primary",
+        "sourceGroup": "UK Advertising Standards Authority",
+        "claims": [
+          "shell"
+        ],
+        "stance": "REFUTES",
+        "year": 2023,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_asa.json",
+        "annotationBasis": "The June 2023 ruling found that the ads omitted significant information about Shell\u2019s overall environmental impact. The ruling concerns these ads, not all later campaigns."
+      },
+      {
+        "id": "shell",
+        "title": "Shell: climate targets and ambition",
+        "text": "The company states forward-looking climate targets and its ambition to become a net-zero emissions energy business by 2050. A target is not evidence of completed value-chain decarbonization.",
+        "url": "https://www.shell.com/what-we-do/our-strategy/sustainability/climate.html",
+        "role": "self",
+        "sourceGroup": "Shell",
+        "claims": [
+          "netzero"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2026,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_shell.json",
+        "annotationBasis": "The company states forward-looking climate targets and its ambition to become a net-zero emissions energy business by 2050. A target is not evidence of completed value-chain decarbonization."
+      },
+      {
+        "id": "shell-ets",
+        "title": "Shell: Energy Transition Strategy 2024",
+        "text": "Shell reports more than 60% progress toward halving operational emissions by 2030 and a 6.3% cut in the net carbon intensity of products sold versus 2016. A 2050 target in progress is not an achieved value-chain result.",
+        "url": "https://www.shell.com/news-and-insights/newsroom/news-and-media-releases/2024/shell-publishes-energy-transition-strategy-2024.html",
+        "role": "self",
+        "sourceGroup": "Shell",
+        "claims": [
+          "netzero"
+        ],
+        "stance": "REFUTES",
+        "year": 2024,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_shell-ets.json",
+        "annotationBasis": "Shell reports more than 60% progress toward halving operational emissions by 2030 and a 6.3% cut in the net carbon intensity of products sold versus 2016. A 2050 target in progress is not an achieved value-chain result."
+      },
+      {
+        "id": "verra",
+        "title": "Verra: response to the Guardian offsets investigation",
+        "text": "The registry rejects the investigation, saying the cited studies use methods that miss project-specific deforestation drivers and so miscalculate REDD impact. Verra issues the credits under review.",
+        "url": "https://verra.org/verra-response-guardian-rainforest-carbon-offsets/",
+        "role": "self",
+        "sourceGroup": "Verra",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2023,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_verra.json",
+        "annotationBasis": "The registry rejects the investigation, saying the cited studies use methods that miss project-specific deforestation drivers and so miscalculate REDD impact. Verra issues the credits under review."
+      },
+      {
+        "id": "west",
+        "title": "Action needed to make carbon offsets from forest conservation work for climate change mitigation",
+        "text": "Synthetic controls for 26 avoided-deforestation projects found most did not significantly reduce deforestation; reductions in effective projects were below credited baselines.",
+        "url": "https://doi.org/10.1126/science.ade3535",
+        "role": "primary",
+        "sourceGroup": "West forest counterfactual team",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "REFUTES",
+        "year": 2023,
+        "funders": [
+          {
+            "name": "Deutsche Forschungsgemeinschaft",
+            "url": "https://openalex.org/F4320320879"
+          },
+          {
+            "name": "Bundesministerium f\u00fcr Ern\u00e4hrung und Landwirtschaft",
+            "url": "https://openalex.org/F4320323499"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_west_openalex.json",
+        "annotationBasis": "Synthetic controls for 26 avoided-deforestation projects found most did not significantly reduce deforestation; reductions in effective projects were below credited baselines.",
+        "sourceAbstract": "Carbon offsets from voluntary avoided-deforestation projects are generated on the basis of performance in relation to ex ante deforestation baselines. We examined the effects of 26 such project sites in six countries on three continents using synthetic control methods for causal inference. We found that most projects have not significantly reduced deforestation. For projects that did, reductions were substantially lower than claimed. This reflects differences between the project ex ante baselines and ex post counterfactuals according to observed deforestation in control areas. Methodologies used to construct deforestation baselines for carbon offset interventions need urgent revisions to correctly attribute reduced deforestation to the projects, thus maintaining both incentives for forest conservation and the integrity of global carbon accounting.",
+        "authors": [
+          "Thales A. P. West",
+          "Sven Wunder",
+          "Erin O. Sills",
+          "Jan B\u00f6rner",
+          "Sami Walid Rifai",
+          "Alex N. Neidermeier",
+          "Gabriel Frey",
+          "Andreas V. Kontoleon"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "badgley",
+        "title": "Systematic over\u2010crediting in California's forest carbon offsets program",
+        "text": "Analysis of California project records and forest inventory estimated systematic over-crediting of 30.0 million tonnes CO2 equivalent, 29.4% of analyzed credits.",
+        "url": "https://doi.org/10.1111/gcb.15943",
+        "role": "primary",
+        "sourceGroup": "Badgley forest accounting team",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "REFUTES",
+        "year": 2021,
+        "funders": [
+          {
+            "name": "National Science Foundation",
+            "url": "https://openalex.org/F4320306076"
+          },
+          {
+            "name": "David and Lucile Packard Foundation",
+            "url": "https://openalex.org/F4320306079"
+          },
+          {
+            "name": "U.S. Forest Service",
+            "url": "https://openalex.org/F4320332478"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_badgley_openalex.json",
+        "annotationBasis": "Analysis of California project records and forest inventory estimated systematic over-crediting of 30.0 million tonnes CO2 equivalent, 29.4% of analyzed credits.",
+        "sourceAbstract": "Abstract Carbon offsets are widely used by individuals, corporations, and governments to mitigate their greenhouse gas emissions on the assumption that offsets reflect equivalent climate benefits achieved elsewhere. These climate\u2010equivalence claims depend on offsets providing real and additional climate benefits beyond what would have happened, counterfactually, without the offsets project. Here, we evaluate the design of California's prominent forest carbon offsets program and demonstrate that its climate\u2010equivalence claims fall far short on the basis of directly observable evidence. By design, California's program awards large volumes of offset credits to forest projects with carbon stocks that exceed regional averages. This paradigm allows for adverse selection, which could occur if project developers preferentially select forests that are ecologically distinct from unrepresentative regional averages. By digitizing and analyzing comprehensive offset project records alongside detailed forest inventory data, we provide direct evidence that comparing projects against coarse regional carbon averages has led to systematic over\u2010crediting of 30.0 million tCO 2 e (90% CI: 20.5, 38.6 million tCO 2 e) or 29.4% of the credits we analyzed (90% CI: 20.1%, 37.8%). These excess credits are worth an estimated $410 million (90% CI: $280, $528 million) at recent market prices. Rather than improve forest management to store additional carbon, California's forest offsets program creates incentives to generate offset credits that do not reflect real climate benefits.",
+        "authors": [
+          "Grayson Badgley",
+          "Jeremy Freeman",
+          "Joseph Hamman",
+          "Barbara K. Haya",
+          "Anna T. Trugman",
+          "William R. L. Anderegg",
+          "Danny Cullenward"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "kaarakka",
+        "title": "Managing forests for carbon, Status of the forest carbon offset markets in the United States",
+        "text": "Registry analysis found 26% of existing US forest offsets exposed to wildfire hazard. Credited carbon therefore requires explicit reversal-risk management.",
+        "url": "https://doi.org/10.1371/journal.pclm.0000158",
+        "role": "primary",
+        "sourceGroup": "Kaarakka forest market team",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "REFUTES",
+        "year": 2023,
+        "funders": [
+          {
+            "name": "Suomen Kulttuurirahasto",
+            "url": "https://openalex.org/F4320321726"
+          },
+          {
+            "name": "University of Colorado Boulder",
+            "url": "https://openalex.org/F4320332538"
+          },
+          {
+            "name": "Agricultural Research Institute, California State University",
+            "url": "https://openalex.org/F4320333264"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_kaarakka_openalex.json",
+        "annotationBasis": "Registry analysis found 26% of existing US forest offsets exposed to wildfire hazard. Credited carbon therefore requires explicit reversal-risk management.",
+        "sourceAbstract": "Nature-based climate solutions are gaining international policy attention, with forests highlighted as a primary pathway for storing carbon. However, evaluations of additional carbon benefits and the permanence of forest carbon offset projects remain scarce. In response, we compiled a novel database to analyze trends in existing forest management projects from the two offset project registries (Climate Action Reserve and American Carbon Registry) who list, report, and verify forest carbon offsets in California\u2019s Compliance Offsets Program, part of the state\u2019s Cap-and-Trade Program. We found that improved forest management projects represent 96% of all credits from forestry projects and 80% of all offset credits to date and span a diverse set of forest management practices with different potential for carbon storage. Our results show that 26% of existing forest carbon offsets in the United States face the hazard of wildfire. From a policy perspective, these findings underscore the need for a robust framework to monitor and evaluate cumulative and future carbon benefits of forest-based offset projects, and for assessing the risk of reversal associated with each project.",
+        "authors": [
+          "Lilli Kaarakka",
+          "Julia Rothey",
+          "Laura E. Dee"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "coffield",
+        "title": "Using remote sensing to quantify the additional climate benefits of California forest carbon offset projects",
+        "text": "Remote sensing of 37 California projects found no general increase in carbon accumulation or decrease in harvesting after enrollment; shares investigators with the Badgley team.",
+        "url": "https://doi.org/10.1111/gcb.16380",
+        "role": "independent",
+        "sourceGroup": "Badgley forest accounting team",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "REFUTES",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "National Science Foundation",
+            "url": "https://openalex.org/F4320306076"
+          },
+          {
+            "name": "David and Lucile Packard Foundation",
+            "url": "https://openalex.org/F4320306079"
+          },
+          {
+            "name": "U.S. Department of Energy",
+            "url": "https://openalex.org/F4320306084"
+          },
+          {
+            "name": "U.S. Department of Agriculture",
+            "url": "https://openalex.org/F4320306114"
+          },
+          {
+            "name": "National Institute of Food and Agriculture",
+            "url": "https://openalex.org/F4320332299"
+          },
+          {
+            "name": "Office of the President, University of California",
+            "url": "https://openalex.org/F4320333677"
+          },
+          {
+            "name": "National Science Foundation of Sri Lanka",
+            "url": "https://openalex.org/F4320335353"
+          },
+          {
+            "name": "Division of Environmental Biology",
+            "url": "https://openalex.org/F4320337400"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_coffield_openalex.json",
+        "annotationBasis": "Remote sensing of 37 California projects found no general increase in carbon accumulation or decrease in harvesting after enrollment; shares investigators with the Badgley team.",
+        "sourceAbstract": "Nature-based climate solutions are a vital component of many climate mitigation strategies, including California's, which aims to achieve carbon neutrality by 2045. Most carbon offsets in California's cap-and-trade program come from improved forest management (IFM) projects. Since 2012, various landowners have set up IFM projects following the California Air Resources Board's IFM protocol. As many of these projects approach their 10th year, we now have the opportunity to assess their effectiveness, identify best practices, and suggest improvements toward future protocol revisions. In this study, we used remote sensing-based datasets to evaluate the carbon trends and harvest histories of 37 IFM projects in California. Despite some current limitations and biases, these datasets can be used to quantify carbon accumulation and harvest rates in offset project lands relative to nearby similar \"control\" lands before and after the projects began. Five lines of evidence suggest that the carbon accumulated in offset projects to date has generally not been additional to what might have otherwise occurred: (1) most forests in northwestern California have been accumulating carbon since at least the mid-1980s and continue to accumulate carbon, whether enrolled in offset projects or not; (2) harvest rates were high in large timber company project lands before IFM initiation, suggesting they are earning carbon credits for forests in recovery; (3) projects are often located on lands with higher densities of low-timber-value species; (4) carbon accumulation rates have not yet increased on lands that enroll as offset projects, relative to their pre-enrollment levels; and (5) harvest rates have not decreased on most project lands since offset project initiation. These patterns suggest that the current protocol should be improved to robustly measure and reward additionality. In general, our framework of geospatial analyses offers an important and independent means to evaluate the effectiveness of the carbon offsets program, especially as these data products continue improving and as offsets receive attention as a climate mitigation strategy.",
+        "authors": [
+          "Shane Coffield",
+          "Cassandra D. Vo",
+          "Jonathan  A. Wang",
+          "Grayson Badgley",
+          "Michael L. Goulden",
+          "Danny Cullenward",
+          "William R. L. Anderegg",
+          "James T. Randerson"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "haya",
+        "title": "Comprehensive review of carbon quantification by improved forest management offset protocols",
+        "text": "Protocol review identified baseline, leakage, durability and wood-product accounting risks. Shares authors with the empirical accounting team and supplies context, not an extra independent measurement.",
+        "url": "https://doi.org/10.3389/ffgc.2023.958879",
+        "role": "independent",
+        "sourceGroup": "Badgley forest accounting team",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "REFUTES",
+        "year": 2023,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_haya_openalex.json",
+        "annotationBasis": "Protocol review identified baseline, leakage, durability and wood-product accounting risks. Shares authors with the empirical accounting team and supplies context, not an extra independent measurement.",
+        "sourceAbstract": "Improved forest management (IFM) has the potential to remove and store large quantities of carbon from the atmosphere. Around the world, 293 IFM offset projects have produced 11% of offset credits by voluntary offset registries to date, channeling substantial climate mitigation funds into forest management projects. This paper summarizes the state of the scientific literature for key carbon offset quality criteria, additionality, baselines, leakage, durability, and forest carbon accounting, and discusses how well currently used IFM protocols align with this literature. Our analysis identifies important areas where the protocols deviate from scientific understanding related to baselines, leakage, risk of reversal, and the accounting of carbon in forests and harvested wood products, risking significant over-estimation of carbon offset credits. We recommend specific improvements to the protocols that would likely result in more accurate estimates of program impact, and identify areas in need of more research. Most importantly, more conservative baselines can substantially reduce, but not resolve, over-crediting risk from multiple factors.",
+        "authors": [
+          "Barbara K. Haya",
+          "Samuel Evans",
+          "Letty B. Brown",
+          "Jacob J. Bukoski",
+          "Van Butsic",
+          "Bodie Cabiyo",
+          "Rory Jacobson",
+          "Amber C. Kerr",
+          "Matthew D. Potts",
+          "Daniel L. Sanchez"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "guizar",
+        "title": "A global evaluation of the effectiveness of voluntary REDD+ projects at reducing deforestation and degradation in the moist tropics",
+        "text": "A matched evaluation of 40 voluntary REDD+ projects estimated lower deforestation and degradation during their first five years. Project effectiveness does not establish that every issued credit is additional.",
+        "url": "https://doi.org/10.1111/cobi.13970",
+        "role": "independent",
+        "sourceGroup": "Guizar-Coutino forest evaluation team",
+        "claims": [
+          "some-effective"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "Consejo Nacional de Ciencia y Tecnolog\u00eda",
+            "url": "https://openalex.org/F4320321739"
+          },
+          {
+            "name": "Cambridge Conservation Initiative",
+            "url": "https://openalex.org/F4320328626"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_guizar_openalex.json",
+        "annotationBasis": "A matched evaluation of 40 voluntary REDD+ projects estimated lower deforestation and degradation during their first five years. Project effectiveness does not establish that every issued credit is additional.",
+        "sourceAbstract": "Reducing emissions from deforestation and forest degradation (REDD+) projects aim to contribute to climate change mitigation by protecting and enhancing carbon stocks in tropical forests, but there have been no systematic global evaluations of their impact. We used a new data set for tropical humid forests and a standardized evaluation approach (based on pixel matching) to quantify the performance of a representative sample of 40 voluntary REDD+ projects in 9 countries certified under the Verified Carbon Standard (VCS). In the first 5 years of implementation, deforestation within project areas was reduced by 47% (95% confidence interval [CI]: 24-68) compared with matched counterfactual pixels, and degradation rates were 58% lower (95% CI: 49-63). Reductions were small in absolute terms but greater in sites located in high-deforestation settings and did not appear to be substantially undermined by leakage activities in forested areas within 10 km of project boundaries. At the 26th Conference of the Parties of the United Nations Framework Convention on Climate Change, the international community renewed its commitment to tackling tropical deforestation as a nature-based solution to climate change. Our results indicate that incentivizing forest conservation through voluntary site-based projects can slow tropical deforestation and highlight the particular importance of prioritizing financing for areas at greater risk of deforestation.",
+        "authors": [
+          "Alejandro Guizar\u2010Couti\u00f1o",
+          "Julia P. G. Jones",
+          "Andrew P. Balmford",
+          "Rachel Carmenta",
+          "David A. Coomes"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "forest-reference",
+        "title": "Carbon offsets and credits: source-linked background",
+        "text": "The encyclopedia describes additionality, permanence and verification as distinct carbon-credit accounting questions. A reference page is not an independent project evaluation.",
+        "url": "https://en.wikipedia.org/wiki/Carbon_offsets_and_credits",
+        "role": "independent",
+        "sourceGroup": "Wikipedia editorial community",
+        "claims": [
+          "offsets"
+        ],
+        "stance": "UNKNOWN",
+        "year": null,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_forest_wikipedia.json",
+        "annotationBasis": "The encyclopedia describes additionality, permanence and verification as distinct carbon-credit accounting questions. A reference page is not an independent project evaluation."
+      }
+    ]
+  },
+  {
+    "id": "event",
+    "short": "Event",
+    "label": "Public Event & Cherry-Picked Evidence OSINT",
+    "title": "A record year needs a time window.",
+    "subtitle": "Annual warmth, long-term thresholds and local-event attribution answer different questions.",
+    "origin": "NASA + WMO + event attribution",
+    "claims": [
+      {
+        "id": "record",
+        "text": "2023 was the warmest calendar year in the global surface-temperature products released in January 2024.",
+        "time": "2023, assessed January 2024",
+        "place": "Global surface temperature"
+      },
+      {
+        "id": "threshold",
+        "text": "One annual temperature anomaly alone establishes a sustained breach of the Paris long-term threshold.",
+        "time": "Annual versus multi-decade average",
+        "place": "Global"
+      },
+      {
+        "id": "attribution",
+        "text": "Extreme-event attribution requires an event definition and a counterfactual climate analysis.",
+        "time": "2023 event studies and AR6",
+        "place": "Event-specific regions and time windows"
+      },
+      {
+        "id": "local",
+        "text": "A global annual record alone proves the cause of an unspecified local flood.",
+        "time": "Event date unspecified",
+        "place": "Location unspecified"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "nasa",
+        "title": "NASA: 2023 warmest year in its record",
+        "text": "NASA\u2019s January 2024 analysis found 2023 its warmest calendar year. This retrospective claim is dated to its release; later records do not invalidate it.",
+        "url": "https://www.nasa.gov/news-release/nasa-analysis-confirms-2023-as-warmest-year-on-record/",
+        "role": "primary",
+        "sourceGroup": "Shared-input surface-temperature products",
+        "claims": [
+          "record"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2024,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_nasa.json",
+        "annotationBasis": "NASA\u2019s January 2024 analysis found 2023 its warmest calendar year. This retrospective claim is dated to its release; later records do not invalidate it."
+      },
+      {
+        "id": "munichre-2023",
+        "title": "Munich Re: natural disasters of 2023",
+        "text": "The reinsurer tallies record thunderstorm losses and cites research that climate change favours severe hail. An insurer loss tally mixes hazard, exposure and pricing interest; it is not an attribution study.",
+        "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2024/natural-disaster-figures-2023.html",
+        "role": "self",
+        "sourceGroup": "Munich Re",
+        "claims": [
+          "local"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2024,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_munichre-2023.json",
+        "annotationBasis": "The reinsurer tallies record thunderstorm losses and cites research that climate change favours severe hail. An insurer loss tally mixes hazard, exposure and pricing interest; it is not an attribution study."
+      },
+      {
+        "id": "munichre-2024",
+        "title": "Munich Re: climate change is showing its claws",
+        "text": "The 2024 release reports US$ 140bn insured losses and a year about 1.5 degrees above pre-industrial. One warm year in an insurer release is not the multi-decade Paris average.",
+        "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/media-information/2025/natural-disaster-figures-2024.html",
+        "role": "self",
+        "sourceGroup": "Munich Re",
+        "claims": [
+          "threshold"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2025,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_munichre-2024.json",
+        "annotationBasis": "The 2024 release reports US$ 140bn insured losses and a year about 1.5 degrees above pre-industrial. One warm year in an insurer release is not the multi-decade Paris average."
+      },
+      {
+        "id": "aon",
+        "title": "Aon: Climate and Catastrophe Insight",
+        "text": "The broker reports US$ 260bn in 2025 natural disaster losses and frames them as a case for resilience spending. Aggregate losses do not identify the cause of one local flood.",
+        "url": "https://www.aon.com/en/insights/reports/climate-and-catastrophe-report",
+        "role": "self",
+        "sourceGroup": "Aon",
+        "claims": [
+          "local"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2026,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_aon.json",
+        "annotationBasis": "The broker reports US$ 260bn in 2025 natural disaster losses and frames them as a case for resilience spending. Aggregate losses do not identify the cause of one local flood."
+      },
+      {
+        "id": "wmo",
+        "title": "WMO: synthesis of six temperature products",
+        "text": "WMO consolidated six datasets to confirm the annual record. This synthesis shares its upstream products and is not counted as an independent experiment.",
+        "url": "https://wmo.int/news/media-centre/wmo-confirms-2023-smashes-global-temperature-record",
+        "role": "independent",
+        "sourceGroup": "WMO synthesis",
+        "claims": [
+          "record"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2024,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_wmo.json",
+        "annotationBasis": "WMO consolidated six datasets to confirm the annual record. This synthesis shares its upstream products and is not counted as an independent experiment."
+      },
+      {
+        "id": "wmo-paris",
+        "title": "WMO: 2024 warmth and the Paris threshold",
+        "text": "WMO explicitly distinguishes one calendar year above 1.5 degrees from the long-term Paris temperature goal.",
+        "url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level",
+        "role": "independent",
+        "sourceGroup": "WMO climate assessment",
+        "claims": [
+          "threshold"
+        ],
+        "stance": "REFUTES",
+        "year": 2025,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_wmo-paris.json",
+        "annotationBasis": "WMO explicitly distinguishes one calendar year above 1.5 degrees from the long-term Paris temperature goal."
+      },
+      {
+        "id": "ipcc",
+        "title": "IPCC AR6: weather and climate extremes",
+        "text": "Chapter 11 separates observed trends, event definition and counterfactual attribution. Global annual warmth alone is not a local-event causal analysis.",
+        "url": "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter11.pdf",
+        "role": "independent",
+        "sourceGroup": "IPCC Working Group I",
+        "claims": [
+          "attribution"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2021,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_ipcc.json",
+        "annotationBasis": "Chapter 11 separates observed trends, event definition and counterfactual attribution. Global annual warmth alone is not a local-event causal analysis."
+      },
+      {
+        "id": "wwa",
+        "title": "WWA: July 2023 heat attribution",
+        "text": "The study defines distinct July heat windows in North America, southern Europe and China and compares event likelihoods in factual and counterfactual climates.",
+        "url": "https://www.worldweatherattribution.org/extreme-heat-in-north-america-europe-and-china-in-july-2023-made-much-more-likely-by-climate-change/",
+        "role": "primary",
+        "sourceGroup": "World Weather Attribution July 2023 team",
+        "claims": [
+          "attribution"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2023,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_wwa.json",
+        "annotationBasis": "The study defines distinct July heat windows in North America, southern Europe and China and compares event likelihoods in factual and counterfactual climates."
+      },
+      {
+        "id": "stott",
+        "title": "Human contribution to the European heatwave of 2003",
+        "text": "Model ensembles estimate the human contribution to the probability of a specifically defined European summer heat event, rather than deriving local cause from an annual global mean.",
+        "url": "https://doi.org/10.1038/nature03089",
+        "role": "primary",
+        "sourceGroup": "Stott European heat attribution team",
+        "claims": [
+          "attribution"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2004,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_stott_openalex.json",
+        "annotationBasis": "Model ensembles estimate the human contribution to the probability of a specifically defined European summer heat event, rather than deriving local cause from an annual global mean."
+      },
+      {
+        "id": "riser",
+        "title": "Attributable Human\u2010Induced Changes in the Likelihood and Magnitude of the Observed Extreme Precipitation during Hurricane Harvey",
+        "text": "The original analysis conditions attribution on a defined rainfall event and region. It concerns Harvey rainfall and does not identify the cause of an unspecified flood.",
+        "url": "https://doi.org/10.1002/2017gl075888",
+        "role": "primary",
+        "sourceGroup": "Risser and Wehner precipitation attribution team",
+        "claims": [
+          "attribution"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2017,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_riser_openalex.json",
+        "annotationBasis": "The original analysis conditions attribution on a defined rainfall event and region. It concerns Harvey rainfall and does not identify the cause of an unspecified flood."
+      },
+      {
+        "id": "fischer",
+        "title": "Anthropogenic contribution to global occurrence of heavy-precipitation and high-temperature extremes",
+        "text": "The analysis estimates anthropogenic contributions to defined categories of daily extremes using factual and counterfactual climates.",
+        "url": "https://doi.org/10.1038/nclimate2617",
+        "role": "independent",
+        "sourceGroup": "Fischer and Knutti extremes team",
+        "claims": [
+          "attribution"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2015,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_fischer_openalex.json",
+        "annotationBasis": "The analysis estimates anthropogenic contributions to defined categories of daily extremes using factual and counterfactual climates."
+      }
+    ]
+  },
+  {
+    "id": "health",
+    "short": "Health",
+    "label": "Biomedical Claims & Funder COI",
+    "title": "Read the trial. Follow the funding.",
+    "subtitle": "Ivermectin and COVID-19: clinical outcomes, viral surrogates and disclosed commercial relationships.",
+    "origin": "Randomized trials + full-text disclosures",
+    "claims": [
+      {
+        "id": "efficacy",
+        "text": "Ivermectin consistently provides clinically meaningful recovery or progression benefits for COVID-19.",
+        "time": "2021 to 2024 randomized trials",
+        "place": "Studied regimens and enrolled populations"
+      },
+      {
+        "id": "viral",
+        "text": "Ivermectin improves virological endpoints in COVID-19 trials.",
+        "time": "2022 to 2024 trials",
+        "place": "PCR and viral-culture endpoints"
+      },
+      {
+        "id": "funding",
+        "text": "Commercial drug supply alone establishes that a clinical result is invalid.",
+        "time": "2022 disclosure",
+        "place": "Mahidol prevention and treatment trial"
+      },
+      {
+        "id": "unseen-population",
+        "text": "The available trial findings establish a clinical benefit in an unstudied future variant and population.",
+        "time": "Future population unspecified",
+        "place": "Population and regimen unspecified"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "together",
+        "title": "Effect of Early Treatment with Ivermectin among Patients with Covid-19",
+        "text": "Brazilian randomized trial: primary admission or prolonged emergency observation occurred in 14.7% with ivermectin and 16.3% with placebo; relative risk 0.90, 95% credible interval 0.70 to 1.16. Day-seven viral clearance also showed no significant difference, RR 1.00, 95% credible interval 0.68 to 1.46. Funded by FastGrants and Rainwater Charitable Foundation; the full text states ivermectin was purchased at full cost.",
+        "url": "https://doi.org/10.1056/nejmoa2115869",
+        "role": "primary",
+        "sourceGroup": "TOGETHER trial team",
+        "claims": [
+          "efficacy",
+          "viral"
+        ],
+        "stance": "REFUTES",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "University of Minnesota",
+            "url": "https://openalex.org/F4320309636"
+          },
+          {
+            "name": "McMaster University",
+            "url": "https://openalex.org/F4320311526"
+          },
+          {
+            "name": "Rainwater Charitable Foundation",
+            "url": "https://openalex.org/F4320316719"
+          },
+          {
+            "name": "Monash University",
+            "url": "https://openalex.org/F4320320971"
+          },
+          {
+            "name": "The Rainwater Foundation",
+            "id": "NA"
+          },
+          {
+            "name": "FastGrants",
+            "id": "NA"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_together_openalex.json",
+        "annotationBasis": "Brazilian randomized trial: primary admission or prolonged emergency observation occurred in 14.7% with ivermectin and 16.3% with placebo; relative risk 0.90, 95% credible interval 0.70 to 1.16. Day-seven viral clearance also showed no significant difference, RR 1.00, 95% credible interval 0.68 to 1.46. Funded by FastGrants and Rainwater Charitable Foundation; the full text states ivermectin was purchased at full cost.",
+        "sourceAbstract": " Background The efficacy of ivermectin in preventing hospitalization or extended observation in an emergency setting among outpatients with acutely symptomatic coronavirus disease 2019 (Covid-19), the disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), is unclear. Methods We conducted a double-blind, randomized, placebo-controlled, adaptive platform trial involving symptomatic SARS-CoV-2-positive adults recruited from 12 public health clinics in Brazil. Patients who had had symptoms of Covid-19 for up to 7 days and had at least one risk factor for disease progression were randomly assigned to receive ivermectin (400 \u03bcg per kilogram of body weight) once daily for 3 days or placebo. (The trial also involved other interventions that are not reported here.) The primary composite outcome was hospitalization due to Covid-19 within 28 days after randomization or an emergency department visit due to clinical worsening of Covid-19 (defined as the participant remaining under observation for >6 hours) within 28 days after randomization. Results A total of 3515 patients were randomly assigned to receive ivermectin (679 patients), placebo (679), or another intervention (2157). Overall, 100 patients (14.7%) in the ivermectin group had a primary-outcome event, as compared with 111 (16.3%) in the placebo group (relative risk, 0.90; 95% Bayesian credible interval, 0.70 to 1.16). Of the 211 primary-outcome events, 171 (81.0%) were hospital admissions. Findings were similar to the primary analysis in a modified intention-to-treat analysis that included only patients who received at least one dose of ivermectin or placebo (relative risk, 0.89; 95% Bayesian credible interval, 0.69 to 1.15) and in a per-protocol analysis that included only patients who reported 100% adherence to the assigned regimen (relative risk, 0.94; 95% Bayesian credible interval, 0.67 to 1.35). There were no significant effects of ivermectin use on secondary outcomes or adverse events. Conclusions Treatment with ivermectin did not result in a lower incidence of medical admission to a hospital due to progression of Covid-19 or of prolonged emergency department observation among outpatients with an early diagnosis of Covid-19. (Funded by FastGrants and the Rainwater Charitable Foundation; TOGETHER ClinicalTrials.gov number, NCT04727424.).",
+        "supportingRawSources": [
+          "v2_together_fulltext.json"
+        ],
+        "authors": [
+          "Gilmar Reis",
+          "Eduardo A.S.M. Silva",
+          "Daniela C.M. Silva",
+          "Lehana Thabane",
+          "Aline C. Milagres",
+          "Thiago S. Ferreira",
+          "Castilho V.Q. dos Santos",
+          "Vitoria H.S. Campos",
+          "Ana M.R. Nogueira",
+          "Ana P.F.G. de Almeida",
+          "Eduardo D. Callegari",
+          "Adhemar D.F. Neto",
+          "Leonardo Can\u00e7ado Monteiro Savassi",
+          "Maria I.C. Simplicio",
+          "Luciene B. Ribeiro",
+          "Rosemary Oliveira",
+          "Ofir Harari",
+          "Jamie I. Forrest",
+          "Hinda Ruton",
+          "Sheila Sprague",
+          "Paula McKay",
+          "Christina M. Guo",
+          "Karen Rowland-Yeo",
+          "Gordon H. Guyatt",
+          "David R. Boulware",
+          "Craig R. Rayner",
+          "Edward J. Mills"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "itech",
+        "title": "Efficacy of Ivermectin Treatment on Disease Progression Among Adults With Mild to Moderate COVID-19 and Comorbidities: The I-TECH Randomized Clinical Trial",
+        "text": "Among 490 high-risk patients, severe progression was 21.6% versus 17.3%; relative risk 1.25, 95% CI 0.87 to 1.80. Early ivermectin did not prevent severe disease.",
+        "url": "https://doi.org/10.1001/jamainternmed.2022.0189",
+        "role": "primary",
+        "sourceGroup": "Malaysian I-TECH trial team",
+        "claims": [
+          "efficacy"
+        ],
+        "stance": "REFUTES",
+        "year": 2022,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_itech_openalex.json",
+        "annotationBasis": "Among 490 high-risk patients, severe progression was 21.6% versus 17.3%; relative risk 1.25, 95% CI 0.87 to 1.80. Early ivermectin did not prevent severe disease.",
+        "sourceAbstract": " Importance Ivermectin, an inexpensive and widely available antiparasitic drug, is prescribed to treat COVID-19. Evidence-based data to recommend either for or against the use of ivermectin are needed. Objective To determine the efficacy of ivermectin in preventing progression to severe disease among high-risk patients with COVID-19. Design, setting, and participants The Ivermectin Treatment Efficacy in COVID-19 High-Risk Patients (I-TECH) study was an open-label randomized clinical trial conducted at 20 public hospitals and a COVID-19 quarantine center in Malaysia between May 31 and October 25, 2021. Within the first week of patients' symptom onset, the study enrolled patients 50 years and older with laboratory-confirmed COVID-19, comorbidities, and mild to moderate disease. Interventions Patients were randomized in a 1:1 ratio to receive either oral ivermectin, 0.4 mg/kg body weight daily for 5 days, plus standard of care (n\u2009=\u2009241) or standard of care alone (n\u2009=\u2009249). The standard of care consisted of symptomatic therapy and monitoring for signs of early deterioration based on clinical findings, laboratory test results, and chest imaging. Main outcomes and measures The primary outcome was the proportion of patients who progressed to severe disease, defined as the hypoxic stage requiring supplemental oxygen to maintain pulse oximetry oxygen saturation of 95% or higher. Secondary outcomes of the trial included the rates of mechanical ventilation, intensive care unit admission, 28-day in-hospital mortality, and adverse events. Results Among 490 patients included in the primary analysis (mean [SD] age, 62.5 [8.7] years; 267 women [54.5%]), 52 of 241 patients (21.6%) in the ivermectin group and 43 of 249 patients (17.3%) in the control group progressed to severe disease (relative risk [RR], 1.25; 95% CI, 0.87-1.80; P\u2009=\u2009.25). For all prespecified secondary outcomes, there were no significant differences between groups. Mechanical ventilation occurred in 4 (1.7%) vs 10 (4.0%) (RR, 0.41; 95% CI, 0.13-1.30; P\u2009=\u2009.17), intensive care unit admission in 6 (2.4%) vs 8 (3.2%) (RR, 0.78; 95% CI, 0.27-2.20; P\u2009=\u2009.79), and 28-day in-hospital death in 3 (1.2%) vs 10 (4.0%) (RR, 0.31; 95% CI, 0.09-1.11; P\u2009=\u2009.09). The most common adverse event reported was diarrhea (14 [5.8%] in the ivermectin group and 4 [1.6%] in the control group). Conclusions and relevance In this randomized clinical trial of high-risk patients with mild to moderate COVID-19, ivermectin treatment during early illness did not prevent progression to severe disease. The study findings do not support the use of ivermectin for patients with COVID-19. Trial registration ClinicalTrials.gov Identifier: NCT04920942.",
+        "authors": [
+          "Steven Chee Loon Lim",
+          "Chee Peng Hor",
+          "Kim Heng Tay",
+          "Anilawati Mat Jelani",
+          "Wen Hao Tan",
+          "Hong Bee Ker",
+          "Ting Soo Chow",
+          "Masliza Zaid",
+          "Wee Kooi Cheah",
+          "Han Hua Lim",
+          "Khairil Erwan Khalid",
+          "Joo Thye Cheng",
+          "Hazfadzila Mohd Unit",
+          "Noralfazita An",
+          "Azraai Bahari Nasruddin",
+          "Lee Lee Low",
+          "Song Weng Ryan Khoo",
+          "Jia Hui Loh",
+          "Nor Zaila Binti Zaidan",
+          "Suhaila Abdul Wahab",
+          "Li Herng Song",
+          "Hui Moon Koh",
+          "Teck Long King",
+          "Nai Ming Lai",
+          "Suresh Kumar Chidambaram",
+          "Kalaiarasu M. Peariasamy",
+          "I-TECH Study Group",
+          "Wen Yea Hwong",
+          "Ee Vien Low",
+          "Mohan Dass Pathmanathan",
+          "Muhammad Luqman Hamzah",
+          "Yew Chung Chan",
+          "James Yau Hon Voo",
+          "Chun Fei Yap",
+          "Yon Quan Chan",
+          "Lee Kuen Vun",
+          "Kian K. Kong",
+          "Yi Fang Lim",
+          "Yee Jie Teoh",
+          "Ammar Rashidi Abdullah",
+          "Anitha Ramadas",
+          "Chee Loon Leong",
+          "Noor Hidayu Wahab",
+          "Nadiah Ismail",
+          "Ismaliza Ismail",
+          "Tung Meng Lee",
+          "Pei Jie Khoo",
+          "Sook Hui Phua",
+          "Gopalakrishnan Prethivan Pillai",
+          "Sangeetha Jaya Selan",
+          "Iswaran Ampalakan",
+          "Jen Fai Khuan",
+          "Wan Nur Farra\u2019Ain Abdul Rashid",
+          "Siti Sha\u2019ada Zakaria",
+          "Kalaiarasan Gemini",
+          "Haslina Burahan",
+          "Thaanveer Singh Santokh Singh",
+          "Noorfarzlina Jaafar",
+          "Nor Atikah Mohd Shukri",
+          "Syaza Izhar Hisham",
+          "Sheng Hao Teow",
+          "Chit Yeh Lim",
+          "Shageetha Rajantran",
+          "Siti Izzatul Annis Kamaruddin",
+          "Izarin Izmir Izhar",
+          "Nur Syuhada Mohd Mustapha",
+          "Zulkefli Mohamad",
+          "Seri Rabiatul Nur Abu Salim",
+          "Delarina Frimawati Othman Andu",
+          "Nurnadiah Kamarudin",
+          "Karamjit Kaur Sarban Singh",
+          "Eek Poei Tay",
+          "Siti Hir Huraizah Md Tahir",
+          "Shalini Vijayasingham",
+          "Yik Zhi Kum",
+          "Peter Andrew Natarajan",
+          "Yih Harng Soh",
+          "Syed Omar Farouk Syed Alwi",
+          "Hemaarubeni Murugan",
+          "Chuan Huan Chuah",
+          "Shin Wuei Tan",
+          "Kar Nim Leong",
+          "Peng Shyan Wong",
+          "W. Chen",
+          "Ru Shing Ng",
+          "Yen Li Lim",
+          "Farah Nadiah Bidin",
+          "Mann Leon Chin",
+          "Han Lin Guan",
+          "Mohd Hafiz Mohamad Rasli",
+          "Rafidah Abdullah",
+          "Mohd Akmal Jamaludin",
+          "Nabilah Mohd Shohaime",
+          "Syafiqah Mohd Mansor",
+          "Ruhaizad Rasliza",
+          "Lisa Mohamed Nor",
+          "Kah Mean Thong",
+          "Balasurindiran Muniandy",
+          "Pamela Saw Varn Teing",
+          "Kah Shuen Thong"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "principle",
+        "title": "Ivermectin for COVID-19 in adults in the community (PRINCIPLE): An open, randomised, controlled, adaptive platform trial of short- and longer-term outcomes",
+        "text": "UK community trial reported a shorter self-reported recovery time, but a low probability of meeting its prespecified clinically meaningful threshold, and similar admissions/deaths. Funded by UKRI and NIHR.",
+        "url": "https://doi.org/10.1016/j.jinf.2024.106130",
+        "role": "self",
+        "sourceGroup": "Oxford PRINCIPLE trial team",
+        "claims": [
+          "efficacy"
+        ],
+        "stance": "REFUTES",
+        "year": 2024,
+        "funders": [
+          {
+            "name": "Royal College of General Practitioners",
+            "url": "https://openalex.org/F4320311966"
+          },
+          {
+            "name": "Health and Care Research Wales",
+            "url": "https://openalex.org/F4320313245"
+          },
+          {
+            "name": "Government of the United Kingdom",
+            "url": "https://openalex.org/F4320314707"
+          },
+          {
+            "name": "UK Research and Innovation",
+            "url": "https://openalex.org/F4320314731"
+          },
+          {
+            "name": "National Institute for Health Research Health Protection Research Unit",
+            "url": "https://openalex.org/F4320318095"
+          },
+          {
+            "name": "National Institute for Health and Care Research",
+            "url": "https://openalex.org/F4320319990"
+          },
+          {
+            "name": "Department of Health and Social Care",
+            "url": "https://openalex.org/F4320319994"
+          },
+          {
+            "name": "University of Oxford",
+            "url": "https://openalex.org/F4320320290"
+          },
+          {
+            "name": "Public Health England",
+            "url": "https://openalex.org/F4320321067"
+          },
+          {
+            "name": "National Institute for Health Research (NIHR)",
+            "id": "CL-2022-13-005"
+          },
+          {
+            "name": "Edenbridge Pharmaceuticals LLC (ivermectin supplied without cost)",
+            "relationship": "acknowledgments, in-kind drug supply"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": true,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_principle_openalex.json",
+        "annotationBasis": "UK community trial reported a shorter self-reported recovery time, but a low probability of meeting its prespecified clinically meaningful threshold, and similar admissions/deaths. Funded by UKRI and NIHR.",
+        "sourceAbstract": " Background The evidence for whether ivermectin impacts recovery, hospital admissions, and longer-term outcomes in COVID-19 is contested. The WHO recommends its use only in the context of clinical trials. Methods In this multicentre, open-label, multi-arm, adaptive platform randomised controlled trial, we included participants aged \u226518 years in the community, with a positive SARS-CoV-2 test, and symptoms lasting \u226414 days. Participants were randomised to usual care, usual care plus ivermectin tablets (target 300-400\u00a0\u03bcg/kg per dose, once daily for 3 days), or usual care plus other interventions. Co-primary endpoints were time to first self-reported recovery, and COVID-19 related hospitalisation/death within 28 days, analysed using Bayesian models. Recovery at 6 months was the primary, longer term outcome. Trial registration ISRCTN86534580. Findings The primary analysis included 8811 SARS-CoV-2 positive participants (median symptom duration 5 days), randomised to ivermectin (n\u00a0=\u00a02157), usual care (n\u00a0=\u00a03256), and other treatments (n\u00a0=\u00a03398) from June 23, 2021 to July 1, 2022. Time to self-reported recovery was shorter in the ivermectin group compared with usual care (hazard ratio 1\u00b715 [95% Bayesian credible interval, 1\u00b707 to 1\u00b723], median decrease 2.06 days [1\u00b700 to 3\u00b706]), probability of meaningful effect (pre-specified hazard ratio \u22651.2) 0\u00b7192). COVID-19-related hospitalisations/deaths (odds ratio 1\u00b702 [0\u00b763 to 1\u00b762]; estimated percentage difference 0% [-1% to 0\u00b76%]), serious adverse events (three and five respectively), and the proportion feeling fully recovered were similar in both groups at 6 months (74\u00b73% and 71\u00b72% respectively (RR = 1\u00b705, [1\u00b702 to 1\u00b708]) and also at 3 and 12 months. Interpretation Ivermectin for COVID-19 is unlikely to provide clinically meaningful improvement in recovery, hospital admissions, or longer-term outcomes. Further trials of ivermectin for SARS-Cov-2 infection in vaccinated community populations appear unwarranted. Funding UKRI/National Institute of Health Research (MC_PC_19079).",
+        "supportingRawSources": [
+          "v2_principle_fulltext.json"
+        ],
+        "authors": [
+          "Gail Hayward",
+          "Ly\u2010Mee Yu",
+          "Paul S Little",
+          "Oghenekome A. Gbinigie",
+          "Milensu Shanyinde",
+          "Victoria Harris",
+          "Jienchi Dorward",
+          "Benjamin R. Saville",
+          "Nicholas Berry",
+          "Philip Hugh Evans",
+          "Nicholas P B Thomas",
+          "Mihir Patel",
+          "Duncan B. Richards",
+          "Oliver van Hecke",
+          "Michelle A. Detry",
+          "Christina T. Saunders",
+          "Mark Fitzgerald",
+          "Jared Robinson",
+          "Charlotte Latimer-Bell",
+          "Julie Allen",
+          "Emma Ogburn",
+          "Jenna Grabey",
+          "Simon de Lusignan",
+          "Richard F. Hobbs",
+          "Christopher Butler"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "activ6",
+        "title": "Effect of Ivermectin vs Placebo on Time to Sustained Recovery in Outpatients With Mild to Moderate COVID-19: A Randomized Clinical Trial",
+        "text": "NIH-funded trial found no significant recovery benefit. Investigator disclosures report outside-study industry relationships; those relationships are not represented as trial sponsorship.",
+        "url": "https://doi.org/10.1001/jama.2022.18590",
+        "role": "independent",
+        "sourceGroup": "ACTIV-6 trial team",
+        "claims": [
+          "efficacy"
+        ],
+        "stance": "REFUTES",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "National Institutes of Health",
+            "url": "https://openalex.org/F4320332161"
+          },
+          {
+            "name": "Biomedical Advanced Research and Development Authority",
+            "url": "https://openalex.org/F4320333299"
+          },
+          {
+            "name": "National Center for Advancing Translational Sciences",
+            "url": "https://openalex.org/F4320337472"
+          },
+          {
+            "name": "NCATS NIH HHS",
+            "id": "UL1 TR002243"
+          },
+          {
+            "name": "Gilead Sciences and AbbVie (investigator outside-study research relationships)",
+            "relationship": "author disclosure, not trial sponsorship"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_activ6_openalex.json",
+        "annotationBasis": "NIH-funded trial found no significant recovery benefit. Investigator disclosures report outside-study industry relationships; those relationships are not represented as trial sponsorship.",
+        "sourceAbstract": " Importance The effectiveness of ivermectin to shorten symptom duration or prevent hospitalization among outpatients in the US with mild to moderate symptomatic COVID-19 is unknown. Objective To evaluate the efficacy of ivermectin, 400 \u03bcg/kg, daily for 3 days compared with placebo for the treatment of early mild to moderate COVID-19. Design, setting, and participants ACTIV-6, an ongoing, decentralized, double-blind, randomized, placebo-controlled platform trial, was designed to evaluate repurposed therapies in outpatients with mild to moderate COVID-19. A total of 1591 participants aged 30 years and older with confirmed COVID-19, experiencing 2 or more symptoms of acute infection for 7 days or less, were enrolled from June 23, 2021, through February 4, 2022, with follow-up data through May 31, 2022, at 93 sites in the US. Interventions Participants were randomized to receive ivermectin, 400 \u03bcg/kg (n\u2009=\u2009817), daily for 3 days or placebo (n\u2009=\u2009774). Main outcomes and measures Time to sustained recovery, defined as at least 3 consecutive days without symptoms. There were 7 secondary outcomes, including a composite of hospitalization or death by day 28. Results Among 1800 participants who were randomized (mean [SD] age, 48 [12] years; 932 women [58.6%]; 753 [47.3%] reported receiving at least 2 doses of a SARS-CoV-2 vaccine), 1591 completed the trial. The hazard ratio (HR) for improvement in time to recovery was 1.07 (95% credible interval [CrI], 0.96-1.17; posterior P value [HR >1]\u2009=\u2009.91). The median time to recovery was 12 days (IQR, 11-13) in the ivermectin group and 13 days (IQR, 12-14) in the placebo group. There were 10 hospitalizations or deaths in the ivermectin group and 9 in the placebo group (1.2% vs 1.2%; HR, 1.1 [95% CrI, 0.4-2.6]). The most common serious adverse events were COVID-19 pneumonia (ivermectin [n\u2009=\u20095]; placebo [n\u2009=\u20097]) and venous thromboembolism (ivermectin [n\u2009=\u20091]; placebo [n\u2009=\u20095]). Conclusions and relevance Among outpatients with mild to moderate COVID-19, treatment with ivermectin, compared with placebo, did not significantly improve time to recovery. These findings do not support the use of ivermectin in patients with mild to moderate COVID-19. Trial registration ClinicalTrials.gov Identifier: NCT04885530.",
+        "authors": [
+          "Susanna Naggie",
+          "David R. Boulware",
+          "Christopher John Lindsell",
+          "Thomas G. Stewart",
+          "Nina Gentile",
+          "Sean P. Collins",
+          "Matthew William McCarthy",
+          "Dushyantha T. Jayaweera",
+          "Mario Castro",
+          "Mark Sulkowski",
+          "Kathleen M. McTigue",
+          "Florence Thicklin",
+          "Gary Michael Felker",
+          "Adit A. Ginde",
+          "Carolyn T. Bramante",
+          "Alex J. Slandzicki",
+          "Ahab Gabriel",
+          "Nirav S Shah",
+          "Leslie Andrew Lenert",
+          "Sarah E. Dunsmore",
+          "Stacey J. Adam",
+          "Allison DeLong",
+          "George J. Hanna",
+          "April Remaly",
+          "Rhonda Wilder",
+          "Sybil Wilson",
+          "Elizabeth A. Shenkman",
+          "Adrian F. Hernandez",
+          "Accelerating COVID-19 Therapeutic Interventions and Vaccines (ACTIV-6) Study Group and Investigators",
+          "William Vincent",
+          "Raina Vincent",
+          "Ray Bianchi",
+          "Jen Premas",
+          "Diana Cordero-Loperena",
+          "Evelyn Rivera",
+          "Madhu Gupta",
+          "Greg Karawan",
+          "Carey Ziomek",
+          "Joseph Arena",
+          "Sonaly DeAlmeida",
+          "Soroush Ramin",
+          "Jaya Nataraj",
+          "Michael K. Paasche\u2010Orlow",
+          "Lori E. Henault",
+          "Katie Waite",
+          "David Miller",
+          "Ginger Brounce",
+          "Constance George-Adebayo",
+          "Adeolu Adebayo",
+          "Jessica Wallan",
+          "Alex J. Slandzicki",
+          "Claudia Vogel",
+          "Sebastian Munoz",
+          "David Kavtaradze",
+          "Cassandra Watson",
+          "David Singleton",
+          "Maria Rivon",
+          "Amanda Sevier",
+          "Arnold Del Pilar",
+          "Amber Spangler",
+          "Sohail Rao",
+          "Luis Cantu",
+          "Arvind Krishna",
+          "Kathy Evans",
+          "Tylene Falkner",
+          "Brandi Kerr",
+          "Robert Spees",
+          "Mailyn Marta",
+          "G. Michael Felker",
+          "Amanda Harrington",
+          "Rowena J Dolor",
+          "Madison Frazier",
+          "Lorraine Vergara",
+          "Jessica Wilson",
+          "Valencia Burruss",
+          "Terri Hurst",
+          "Igho Ofotokun",
+          "Laurel Bristow",
+          "Rajesh Prabhu",
+          "Krystal Klicka",
+          "Amber Lightfeather",
+          "Vicki James",
+          "Marcella Rogers",
+          "Pradeep Parihar",
+          "De'Ambra Torress",
+          "Chukwuemeka Oragwu",
+          "Ngozi Oguego",
+          "Rajesh Pillai",
+          "Mustafa Juma",
+          "Ahab Gabriel",
+          "Emad Ghaly",
+          "Dafer Al-Haddadin",
+          "Courtney Ramirez",
+          "Gammal Hassanien",
+          "Samah Ismail",
+          "Andrew Meltzer",
+          "Seamus Moran",
+          "Scott S. Brehaut",
+          "Angelina Roche",
+          "Manisha Mehta"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "biber",
+        "title": "The effect of ivermectin on the viral load and culture viability in early treatment of nonhospitalized patients with mild COVID-19 ,  a double-blind, randomized placebo-controlled trial",
+        "text": "A small per-protocol study found lower viral loads and culture viability. Super-Pharm Professional donated drug and placebo according to its full-text acknowledgment. These surrogate endpoints do not establish a mortality benefit.",
+        "url": "https://doi.org/10.1016/j.ijid.2022.07.003",
+        "role": "self",
+        "sourceGroup": "Biber viral-culture trial team",
+        "claims": [
+          "viral"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "Ministry of Defense",
+            "url": "https://openalex.org/F4320324890"
+          },
+          {
+            "name": "Super-Pharm Professional (donated drug and placebo)",
+            "relationship": "in-kind supply, full-text acknowledgment"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": true,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_biber_openalex.json",
+        "annotationBasis": "A small per-protocol study found lower viral loads and culture viability. Super-Pharm Professional donated drug and placebo according to its full-text acknowledgment. These surrogate endpoints do not establish a mortality benefit.",
+        "sourceAbstract": " Objectives Ivermectin, an antiparasitic agent, also has antiviral properties. In this study, we aimed to assess whether ivermectin has anti-SARS-CoV-2 activity. Methods In this double-blinded trial, we compared patients receiving ivermectin for 3 days versus placebo in nonhospitalized adult patients with COVID-19. A reverse transcriptase-polymerase chain reaction from a nasopharyngeal swab was obtained at recruitment and every 2 days for at least 6 days. The primary endpoint was a reduction of viral load on the sixth day as reflected by cycle threshold level >30 (noninfectious level). The primary outcome was supported by the determination of viral-culture viability. Results Of 867 patients screened, 89 were ultimately evaluated per-protocol (47 ivermectin and 42 placeboes). On day 6, the odds ratio (OR) was 2.62 (95% confidence interval [CI]: 1.09-6.31) in the ivermectin arm, reaching the endpoint. In a multivariable logistic regression model, the odds of a negative test on day 6 were 2.28 times higher in the ivermectin group but reached significance only on day 8 (OR 3.70; 95% CI: 1.19-11.49, P\u00a0=\u00a00.02). Culture viability on days 2 to 6 was positive in 13.0% (3/23) of ivermectin samples versus 48.2% (14/29) in the placebo group (P\u00a0=\u00a00.008). Conclusion There were lower viral loads and less viable cultures in the ivermectin group, which shows its anti-SARS-CoV-2 activity. It could reduce transmission in these patients and encourage further studies with this drug.",
+        "supportingRawSources": [
+          "v2_biber_fulltext.json"
+        ],
+        "authors": [
+          "Asaf Biber",
+          "Geva Harmelin",
+          "Dana Lev",
+          "Li Ram",
+          "Amit Shaham",
+          "Ital Nemet",
+          "Limor Kliker",
+          "Oran Erster",
+          "Michal Mandelboim",
+          "Eli Schwartz"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "corvette",
+        "title": "Efficacy and safety of single-dose ivermectin in mild-to-moderate COVID-19: the double-blind, randomized, placebo-controlled CORVETTE-01 trial",
+        "text": "The Japanese single-dose trial found no reduction in time to negative PCR: hazard ratio 0.96, 95% CI 0.70 to 1.32. A different regimen and endpoint require separate interpretation.",
+        "url": "https://doi.org/10.3389/fmed.2023.1139046",
+        "role": "primary",
+        "sourceGroup": "Kitasato CORVETTE trial team",
+        "claims": [
+          "viral"
+        ],
+        "stance": "REFUTES",
+        "year": 2023,
+        "funders": [
+          {
+            "name": "Japan Agency for Medical Research and Development",
+            "url": "https://openalex.org/F4320311405"
+          },
+          {
+            "name": "Kitasato University",
+            "url": "https://openalex.org/F4320324670"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_corvette_openalex.json",
+        "annotationBasis": "The Japanese single-dose trial found no reduction in time to negative PCR: hazard ratio 0.96, 95% CI 0.70 to 1.32. A different regimen and endpoint require separate interpretation.",
+        "sourceAbstract": " Background To investigate whether ivermectin inhibits SARS-CoV-2 proliferation in patients with mild-to-moderate COVID-19 using time to a negative COVID-19 reverse transcription-polymerase chain reaction (RT-PCR) test. Methods CORVETTE-01 was a double-blind, randomized, placebo-controlled study (August 2020-October 2021) conducted in Japan. Overall, 248 patients diagnosed with COVID-19 using RT-PCR were assessed for eligibility. A single oral dose of ivermectin (200\u2009 \u03bcg/kg) or placebo was administered under fasting. The primary outcome was time to a negative COVID-19 RT-PCR test result for SARS-CoV-2 nucleic acid, assessed using stratified log-rank test and Cox regression models. Results Overall, 112 and 109 patients were randomized to ivermectin and placebo, respectively; 106 patients from each group were included in the full analysis set (male [%], mean age: 68.9%, 47.9 years [ivermectin]; 62.3%, 47.5 years [placebo]). No significant difference was observed in the occurrence of negative RT-PCR tests between the groups (hazard ratio, 0.96; 95% confidence interval [CI] 0.70-1.32;  p \u2009=\u20090.785). Median (95% CI) time to a negative RT-PCR test was 14.0 (13.0-16.0) and 14.0 (12.0-16.0) days for ivermectin and placebo, respectively; 82.1% and 84% of patients achieved negative RT-PCR tests, respectively. Conclusion In patients with COVID-19, single-dose ivermectin was ineffective in decreasing the time to a negative RT-PCR test. Clinical trial registration ClinicalTrials.gov, NCT04703205.",
+        "supportingRawSources": [
+          "v2_corvette_fulltext.json"
+        ],
+        "peerReviewDisclosure": "The journal discloses that reviewer Devan Mehrotra works at Merck; this is not represented as author funding. Its notice states the journal found no reason to believe the scientific conclusions were affected.",
+        "authors": [
+          "Tatsuhiko Wada",
+          "Makoto Hibino",
+          "Hiromi Aono",
+          "Shunsuke Kyoda",
+          "Yosuke Iwadate",
+          "Eri Shishido",
+          "Keisuke Ikeda",
+          "Nana Kinoshita",
+          "Yasuki Matsuda",
+          "Sakiko Otani",
+          "Ryo Kameda",
+          "Kenta Matoba",
+          "Miwa Nonaka",
+          "Mika Maeda",
+          "Yuji Kumagai",
+          "Junya Ako",
+          "Masayoshi Shichiri",
+          "Katsuhiko Naoki",
+          "Masato Katagiri",
+          "Masashi Takaso",
+          "Masatsugu Iwamura",
+          "Kazuhiko Katayama",
+          "Takeshi Miyatsuka",
+          "Yasushi Orihashi",
+          "Kunihiro Yamaoka",
+          "for the CORVETTE-01 Study Group"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "rezai",
+        "title": "Non-effectiveness of Ivermectin on Inpatients and Outpatients With COVID-19; Results of Two Randomized, Double-Blinded, Placebo-Controlled Clinical Trials",
+        "text": "Two randomized placebo-controlled studies found no significant clinical benefit or improvement in day-five negative PCR. The full-text declaration reports no commercial or financial relationships; Alborz Daru is identified as the drug and placebo manufacturer, without an asserted sponsorship.",
+        "url": "https://doi.org/10.3389/fmed.2022.919708",
+        "role": "primary",
+        "sourceGroup": "Mazandaran randomized trial team",
+        "claims": [
+          "efficacy",
+          "viral"
+        ],
+        "stance": "REFUTES",
+        "year": 2022,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_rezai_openalex.json",
+        "annotationBasis": "Two randomized placebo-controlled studies found no significant clinical benefit or improvement in day-five negative PCR. The full-text declaration reports no commercial or financial relationships; Alborz Daru is identified as the drug and placebo manufacturer, without an asserted sponsorship.",
+        "sourceAbstract": " Background Ivermectin which was widely considered as a potential treatment for COVID-19, showed uncertain clinical benefit in many clinical trials. Performing large-scale clinical trials to evaluate the effectiveness of this drug in the midst of the pandemic, while difficult, has been urgently needed. Methods We performed two large multicenter randomized, double-blind, placebo-controlled clinical trials evaluating the effectiveness of ivermectin in treating inpatients and outpatients with COVID-19 infection. The intervention group received ivermectin, 0.4mg/kg of body weight per day for 3 days. In the control group, placebo tablets were used for 3 days. Results Data for 609 inpatients and 549 outpatients were analyzed. In hospitalized patients, complete recovery was significantly higher in the ivermectin group (37%) compared to placebo group (28%; RR, 1.32 [95% CI, 1.04-1.66];  p -value = 0.02). On the other hand, the length of hospital stay was significantly longer in the ivermectin group with a mean of 7.98 \u00b1 4.4 days compared to the placebo receiving group with a mean of 7.16 \u00b1 3.2 days (RR, 0.80 [95% CI, 0.15-1.45];  p -value = 0.02). In outpatients, the mean duration of fever was significantly shorter (2.02 \u00b1 0.11 days) in the ivermectin group versus (2.41 \u00b1 0.13 days) placebo group with  p  value = 0.020. On the day seventh of treatment, fever ( p -value = 0.040), cough ( p -value = 0.019), and weakness ( p -value = 0.002) were significantly higher in the placebo group compared to the ivermectin group. Among all outpatients, 7% in ivermectin group and 5% in placebo group needed to be hospitalized (RR, 1.36 [95% CI, 0.65-2.84];  p -value = 0.41). Also, the result of RT-PCR on day five after treatment was negative for 26% of patients in the ivermectin group versus 32% in the placebo group (RR, 0.81 [95% CI, 0.60-1.09];  p -value = 0.16). Conclusion Our data showed, ivermectin, compared with placebo, did not have a significant potential effect on clinical improvement, reduced admission in ICU, need for invasive ventilation, and death in hospitalized patients; likewise, no evidence was found to support the prescription of ivermectin on recovery, reduced hospitalization and increased negative RT-PCR assay for SARS-CoV-2 5 days after treatment in outpatients. Our findings do not support the use of ivermectin to treat mild to severe forms of COVID-19. Clinical trial registration www.irct.ir IRCT20111224008507N5 and IRCT20111224008507N4.",
+        "supportingRawSources": [
+          "v2_rezai_fulltext.json"
+        ],
+        "authors": [
+          "Mohammad Sadegh Rezai",
+          "Fatemeh Ahangarkani",
+          "Andrew Martin Hill",
+          "Leah Ellis",
+          "Manya Mirchandani",
+          "Alireza Davoudi",
+          "Gohar Eslami",
+          "Fatemeh Roozbeh",
+          "Farhang Babamahmoodi",
+          "Nima Rouhani",
+          "Ahmad Alikhani",
+          "Narges Najafi",
+          "Roya Ghasemian",
+          "Hossein Mehravaran",
+          "Azin Hajialibeig",
+          "Mohammad Reza Navaeifar",
+          "Leila Shahbaznejad",
+          "Golnar Rahimzadeh",
+          "Majid Saeedi",
+          "Reza Alizadeh-Navai",
+          "Mahmood Moosazadeh",
+          "Shahab Saeedi",
+          "Seyedeh-Kiana Razavi-Amoli",
+          "Shaghayegh Rezai",
+          "Fereshteh Rostami-Maskopaee",
+          "Fatemeh Hosseinzadeh",
+          "Faezeh Sadat Movahedi",
+          "John Seth Markowitz",
+          "Reza Valadan"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "cochrane",
+        "title": "Ivermectin for preventing and treating COVID-19",
+        "text": "The systematic review found no evidence supporting ivermectin for treating or preventing COVID-19. A synthesis is not counted as another independent primary trial.",
+        "url": "https://doi.org/10.1002/14651858.cd015017.pub3",
+        "role": "independent",
+        "sourceGroup": "Cochrane ivermectin review",
+        "claims": [
+          "efficacy"
+        ],
+        "stance": "REFUTES",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "National Center for Complementary and Integrative Health",
+            "url": "https://openalex.org/F4320337593"
+          },
+          {
+            "name": "NCCIH NIH HHS",
+            "id": "R24 AT001293"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_cochrane_openalex.json",
+        "annotationBasis": "The systematic review found no evidence supporting ivermectin for treating or preventing COVID-19. A synthesis is not counted as another independent primary trial.",
+        "sourceAbstract": " Background Ivermectin, an antiparasitic agent, inhibits the replication of viruses in vitro. The molecular hypothesis of ivermectin's antiviral mode of action suggests an inhibitory effect on severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) replication in early stages of infection.\u00a0Currently, evidence on ivermectin for prevention of SARS-CoV-2 infection and COVID-19 treatment is conflicting. Objectives To assess the efficacy and safety of ivermectin plus standard of care compared to standard of care plus/minus placebo, or any other proven intervention for people with COVID-19 receiving treatment as inpatients or outpatients, and for prevention of an infection with SARS-CoV-2 (postexposure prophylaxis). Search methods We searched the Cochrane COVID-19 Study Register, Web of Science (Emerging Citation Index and Science Citation Index), WHO COVID-19 Global literature on coronavirus disease, and HTA database weekly to identify completed and ongoing trials without language restrictions to 16 December 2021. Additionally, we included trials with > 1000 participants up to April 2022. Selection criteria We included randomized controlled trials (RCTs) comparing ivermectin to standard of care, placebo, or another proven intervention for treatment of people with confirmed COVID-19 diagnosis, irrespective of disease severity or treatment setting, and for prevention of SARS-CoV-2 infection. Co-interventions had to be the same in both study arms.\u00a0 For this review update, we reappraised eligible trials for research integrity: only RCTs prospectively registered in a trial registry according to WHO guidelines for clinical trial registration were eligible for inclusion. Data collection and analysis We assessed RCTs for bias, using the Cochrane RoB 2 tool. We used GRADE to rate the certainty of evidence for outcomes in the following settings and populations: 1) to treat inpatients with moderate-to-severe COVID-19, 2) to treat outpatients with mild COVID-19 (outcomes: mortality, clinical worsening or improvement, (serious) adverse events,\u00a0quality of life, and viral clearance), and 3) to prevent SARS-CoV-2 infection (outcomes: SARS-CoV-2 infection, development of COVID-19 symptoms, admission to hospital, mortality, adverse events and quality of life). Main results We excluded seven of the 14 trials included in the previous review version; six were not prospectively registered and one was non-randomized. This updated review includes 11 trials with 3409 participants investigating ivermectin plus standard of care compared to standard of care plus/minus placebo. No trial investigated ivermectin for prevention of infection or compared ivermectin to an intervention with proven efficacy. Five trials treated participants with moderate COVID-19 (inpatient settings); six treated mild COVID-19 (outpatient settings). Eight trials were double-blind and placebo-controlled, and three were open-label.\u00a0We assessed around 50% of the trial results as low risk of bias. We identified 31 ongoing trials. In addition, there are 28 potentially eligible trials without publication of results, or with disparities in the reporting of the methods and results, held in 'awaiting classification' until the trial authors clarify questions upon request. Ivermectin for\u00a0treating\u00a0COVID-19 in inpatient settings with moderate-to-severe disease We are uncertain whether ivermectin plus standard of care compared to standard of care plus/minus placebo reduces or increases all-cause mortality at 28 days (risk ratio (RR) 0.60, 95% confidence interval (CI) 0.14 to 2.51; 3 trials, 230 participants; very low-certainty evidence); or clinical worsening, assessed by participants with new need for invasive mechanical ventilation or death at day 28 (RR 0.82, 95% CI 0.33 to 2.04; 2 trials, 118 participants; very low-certainty evidence); or serious adverse events during the trial period (RR 1.55, 95% CI 0.07 to 35.89; 2 trials, 197 participants; very low-certainty evidence). Ivermectin plus standard of care compared to standard of care plus placebo may have little or no effect on clinical improvement, assessed by the number of participants discharged alive at day 28 (RR 1.03, 95% CI 0.78 to 1.35; 1 trial, 73 participants; low-certainty evidence); on any adverse events during the trial period (RR 1.04, 95% CI 0.61 to 1.79; 3 trials, 228 participants; low-certainty evidence); and on viral clearance at 7 days (RR 1.12, 95% CI 0.80 to 1.58; 3 trials, 231 participants; low-certainty evidence). No trial investigated quality of life at any time point. Ivermectin for\u00a0treating\u00a0COVID-19 in outpatient settings with asymptomatic or mild disease Ivermectin plus standard of care compared to standard of care plus/minus placebo probably has little or no effect on all-cause mortality at day 28 (RR 0.77, 95% CI 0.47 to 1.25; 6 trials, 2860 participants; moderate-certainty evidence) and little or no effect on quality of life, measured with the PROMIS Global-10 scale (physical component mean difference (MD) 0.00, 95% CI -0.98 to 0.98; and mental component MD 0.00, 95% CI -1.08 to 1.08; 1358 participants; high-certainty evidence). Ivermectin may have little or no effect on clinical worsening, assessed by admission to hospital or death within 28 days (RR 1.09, 95% CI 0.20 to 6.02; 2 trials, 590 participants; low-certainty evidence); on clinical improvement, assessed by the number of participants with all initial symptoms resolved up to 14 days (RR 0.90, 95% CI 0.60 to 1.36; 2 trials, 478 participants; low-certainty evidence); on serious adverse events (RR 2.27, 95% CI 0.62 to 8.31; 5 trials, 1502 participants; low-certainty evidence); on any adverse events during the trial period (RR 1.24, 95% CI 0.87 to 1.76; 5 trials, 1502 participants; low-certainty evidence); and on viral clearance at day 7 compared to placebo (RR 1.01, 95% CI 0.69 to 1.48; 2 trials, 331 participants; low-certainty evidence). None of the trials reporting duration of symptoms were eligible for meta-analysis. Authors' conclusions For outpatients, there is currently low- to high-certainty evidence that ivermectin has no beneficial effect for people with COVID-19. Based on the very low-certainty evidence for inpatients, we are still uncertain whether ivermectin prevents death or clinical worsening or increases serious adverse events, while there is low-certainty evidence that it has no beneficial effect regarding clinical improvement, viral clearance and adverse events. No evidence is available on ivermectin to prevent SARS-CoV-2 infection. In this update, certainty of evidence increased through higher quality trials including more participants. According to this review's living approach, we will continually update our search.",
+        "authors": [
+          "Maria Popp",
+          "Stefanie Reis",
+          "Selina Schie\u00dfer",
+          "Renate Ilona Hausinger",
+          "Miriam Songa Stegemann",
+          "Maria\u2010Inti Metzendorf",
+          "Peter Kranke",
+          "Patrick Meybohm",
+          "Nicole Skoetz",
+          "Stephanie Weibel"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "thai-disclosure",
+        "title": "Commercial supply disclosed in the full text",
+        "text": "The published funding statement identifies Atlantic Laboratory Ltd. as supplier of ivermectin and placebo, and Siriraj Foundation as grant funder. A disclosed relationship is not evidence of an invalid result.",
+        "url": "https://doi.org/10.3390/antibiotics11060796#funding",
+        "role": "self",
+        "sourceGroup": "Mahidol randomized trial team",
+        "claims": [
+          "funding"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2022,
+        "funders": [
+          {
+            "name": "Atlantic Laboratory Ltd. (drug and placebo supply)"
+          }
+        ],
+        "fundingKnown": true,
+        "conflicted": true,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_thai_fulltext.json",
+        "annotationBasis": "The published funding statement identifies Atlantic Laboratory Ltd. as supplier of ivermectin and placebo, and Siriraj Foundation as grant funder. A disclosed relationship is not evidence of an invalid result."
+      },
+      {
+        "id": "who",
+        "title": "WHO: ivermectin within clinical trials",
+        "text": "The March 2021 advice limited use for COVID-19 to clinical trials because the then evidence was very low certainty. This dated recommendation is not an additional trial.",
+        "url": "https://www.who.int/news-room/feature-stories/detail/who-advises-that-ivermectin-only-be-used-to-treat-covid-19-within-clinical-trials",
+        "role": "independent",
+        "sourceGroup": "World Health Organization",
+        "claims": [
+          "efficacy"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2021,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_who.json",
+        "annotationBasis": "The March 2021 advice limited use for COVID-19 to clinical trials because the then evidence was very low certainty. This dated recommendation is not an additional trial."
+      },
+      {
+        "id": "merck",
+        "title": "Merck: public statement on ivermectin for COVID-19",
+        "text": "The manufacturer said available evidence did not support efficacy for COVID-19. This is an interested-party statement, distinct from an independent trial.",
+        "url": "https://www.merck.com/news/merck-statement-on-ivermectin-use-during-the-covid-19-pandemic/",
+        "role": "self",
+        "sourceGroup": "Merck",
+        "claims": [
+          "efficacy"
+        ],
+        "stance": "REFUTES",
+        "year": 2021,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_merck.json",
+        "annotationBasis": "The manufacturer said available evidence did not support efficacy for COVID-19. This is an interested-party statement, distinct from an independent trial."
+      }
+    ]
+  },
+  {
+    "id": "ranking",
+    "short": "Rankings",
+    "label": "Institutional Leaderboard Mirage",
+    "title": "Count the cases before the rank.",
+    "subtitle": "1,284 unique cases and 14,797 pairwise rows. Sparse ranks need uncertainty and shrinkage.",
+    "origin": "Judicial audit + original statistical methods",
+    "claims": [
+      {
+        "id": "rank",
+        "text": "The raw top-ranked institution is the strongest performer in the 1,284-case sample.",
+        "time": "Existing historical audit",
+        "place": "United States judicial aggregate"
+      },
+      {
+        "id": "rows",
+        "text": "Every pairwise row in the 1,284-case audit is a separate court-case observation.",
+        "time": "Existing historical audit",
+        "place": "Case and firm deduplication"
+      },
+      {
+        "id": "small",
+        "text": "Institutional comparisons with small samples and repeated observations need uncertainty-aware, partially pooled estimates.",
+        "time": "Original statistical studies, 1975 to 2013",
+        "place": "General statistical mechanism"
+      },
+      {
+        "id": "external",
+        "text": "The local judicial ranking is independently reproduced by three external docket-level audits.",
+        "time": "External replication unspecified",
+        "place": "Same 1,284 cases"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "audit-summary",
+        "title": "Original 1,284-case aggregate audit",
+        "text": "The saved audit contains 1,284 unique cases, 14,797 pairwise rows and 2,796 duplicate case-firm rows. This local original aggregate is one source, not an external docket receipt.",
+        "url": "./data/judicial_audit.json",
+        "role": "self",
+        "sourceGroup": "Existing judicial audit",
+        "claims": [
+          "rows"
+        ],
+        "stance": "REFUTES",
+        "year": null,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "paper/audit_results.json",
+        "annotationBasis": "The saved audit contains 1,284 unique cases, 14,797 pairwise rows and 2,796 duplicate case-firm rows. This local original aggregate is one source, not an external docket receipt."
+      },
+      {
+        "id": "audit-rank",
+        "title": "Top raw rank has one win from three cases",
+        "text": "Thornton & Naumes has raw rank 1, three unique cases, one win and two losses, and audited rank 1959 in the saved analysis. This is a rank inversion in the existing sample, not an independent measurement.",
+        "url": "./data/judicial_audit.json#unregularized_top10_forensics",
+        "role": "self",
+        "sourceGroup": "Existing judicial audit",
+        "claims": [
+          "rank"
+        ],
+        "stance": "REFUTES",
+        "year": null,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "paper/audit_results.json",
+        "annotationBasis": "Thornton & Naumes has raw rank 1, three unique cases, one win and two losses, and audited rank 1959 in the saved analysis. This is a rank inversion in the existing sample, not an independent measurement."
+      },
+      {
+        "id": "chambers",
+        "title": "Chambers: research methodology",
+        "text": "The ranking publisher calls its method independent, rigorous and trusted and cites 382,000 interviews a year. Firms submit their own case for a ranking, so the method page is a vendor self-description.",
+        "url": "https://chambers.com/submissions/methodology",
+        "role": "self",
+        "sourceGroup": "Chambers and Partners",
+        "claims": [
+          "rank"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2026,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_chambers.json",
+        "annotationBasis": "The ranking publisher calls its method independent, rigorous and trusted and cites 382,000 interviews a year. Firms submit their own case for a ranking, so the method page is a vendor self-description."
+      },
+      {
+        "id": "efron",
+        "title": "Data Analysis Using Stein's Estimator and its Generalizations",
+        "text": "Original empirical Bayes analysis uses real baseball batting data to explain shrinkage estimation. It supplies a statistical mechanism, not a replication of the 1,284-case judicial audit.",
+        "url": "https://doi.org/10.1080/01621459.1975.10479864",
+        "role": "primary",
+        "sourceGroup": "Efron and Morris empirical Bayes team",
+        "claims": [
+          "small"
+        ],
+        "stance": "SUPPORTS",
+        "year": 1975,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_efron_openalex.json",
+        "annotationBasis": "Original empirical Bayes analysis uses real baseball batting data to explain shrinkage estimation. It supplies a statistical mechanism, not a replication of the 1,284-case judicial audit.",
+        "sourceAbstract": "In 1961, James and Stein exhibited an estimator of the mean of a multivariate normal distribution having uniformly lower mean squared error than the sample mean. This estimator is reviewed briefly in an empirical Bayes context. Stein's rule and its generalizations are then applied to predict baseball averages, to estimate toxomosis prevalence rates, and to estimate the exact size of Pearson's chi-square test with results from a computer simulation. In each of these examples, the mean square error of these rules is less than half that of the sample mean.",
+        "authors": [
+          "Bradley Efron",
+          "Carl N. Morris"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "dimick",
+        "title": "Surgical Mortality as an Indicator of Hospital Quality: The Problem With Small Sample Size",
+        "text": "US surgical caseload analysis found most hospitals lacked sufficient observations to detect a doubling in mortality for six of seven procedures. Small denominators make institutional performance comparisons imprecise.",
+        "url": "https://doi.org/10.1001/jama.292.7.847",
+        "role": "primary",
+        "sourceGroup": "Dimick hospital outcomes team",
+        "claims": [
+          "small"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2004,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_dimick_openalex.json",
+        "annotationBasis": "US surgical caseload analysis found most hospitals lacked sufficient observations to detect a doubling in mortality for six of seven procedures. Small denominators make institutional performance comparisons imprecise.",
+        "sourceAbstract": " Context Surgical mortality rates are increasingly used to measure hospital quality. It is not clear, however, how many hospitals have sufficient caseloads to reliably identify quality problems. Objective To determine whether the 7 operations for which mortality has been advocated as a quality indicator by the Agency for Healthcare Research and Quality (coronary artery bypass graft [CABG] surgery, repair of abdominal aortic aneurysm, pancreatic resection, esophageal resection, pediatric heart surgery, craniotomy, hip replacement) are performed frequently enough to reliably identify hospitals with increased mortality rates. Design and setting The US national average mortality rates and hospital caseloads of the 7 operations were determined using the 2000 Nationwide Inpatient Sample (NIS), and sample size calculations were performed to determine the minimum caseload necessary to reliably detect increased mortality rates in poorly performing hospitals. A 3-year hospital caseload was used for the baseline analysis, and poor performance was defined as a mortality rate double the national average. Main outcome measure Proportion of hospitals in the United States that performed more than the minimum caseload for each operation. Results The national average mortality rates for the 7 procedures examined ranged from 0.3% for hip replacement to 10.7% for craniotomy. Minimum hospital caseloads necessary to detect a doubling of the mortality rate were 64 cases for craniotomy, 77 for esophageal resection, 86 for pancreatic resection, 138 for pediatric heart surgery, 195 for repair of abdominal aortic aneurysm, 219 for CABG surgery, and 2668 for hip replacement. For only 1 operation did the majority of hospitals exceed the minimum caseload, with 90% of hospitals performing CABG surgery having a caseload of 219 or higher. For the remaining operations, only a small proportion of hospitals met the minimum caseload: craniotomy (33%), pediatric heart surgery (25%), repair of abdominal aortic aneurysm (8%), pancreatic resection (2%), esophageal resection (1%), and hip replacement ( Conclusion Except for CABG surgery, the operations for which surgical mortality has been advocated as a quality indicator are not performed frequently enough to judge hospital quality.",
+        "authors": [
+          "Justin Brigham Dimick",
+          "H. Gilbert Welch",
+          "John D. Birkmeyer"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "goldstein",
+        "title": "League Tables and Their Limitations: Statistical Issues in Comparisons of Institutional Performance",
+        "text": "Original statistical investigation of institutional performance indicators examines uncertainty in comparisons and league tables. These general methods are separate from judicial sample truth.",
+        "url": "https://doi.org/10.2307/2983325",
+        "role": "independent",
+        "sourceGroup": "Goldstein and Spiegelhalter performance team",
+        "claims": [
+          "small"
+        ],
+        "stance": "SUPPORTS",
+        "year": 1996,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_goldstein_openalex.json",
+        "annotationBasis": "Original statistical investigation of institutional performance indicators examines uncertainty in comparisons and league tables. These general methods are separate from judicial sample truth.",
+        "sourceAbstract": "Harvey Goldstein, David J. Spiegelhalter, League Tables and Their Limitations: Statistical Issues in Comparisons of Institutional Performance, Journal of the Royal Statistical Society. Series A (Statistics in Society), Vol. 159, No. 3 (1996), pp. 385-443",
+        "authors": [
+          "Harvey Goldstein",
+          "David J. Spiegelhalter"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "spiegelhalter",
+        "title": "Funnel plots for comparing institutional performance",
+        "text": "Funnel plots explicitly relate institutional variation to sample precision. This method paper shares its performance-analysis lineage with the league-table study and is not counted twice.",
+        "url": "https://doi.org/10.1002/sim.1970",
+        "role": "primary",
+        "sourceGroup": "Goldstein and Spiegelhalter performance team",
+        "claims": [
+          "small"
+        ],
+        "stance": "SUPPORTS",
+        "year": 2004,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_spiegelhalter_openalex.json",
+        "annotationBasis": "Funnel plots explicitly relate institutional variation to sample precision. This method paper shares its performance-analysis lineage with the league-table study and is not counted twice.",
+        "sourceAbstract": "'Funnel plots' are recommended as a graphical aid for institutional comparisons, in which an estimate of an underlying quantity is plotted against an interpretable measure of its precision. 'Control limits' form a funnel around the target outcome, in a close analogy to standard Shewhart control charts. Examples are given for comparing proportions and changes in rates, assessing association between outcome and volume of cases, and dealing with over-dispersion due to unmeasured risk factors. We conclude that funnel plots are flexible, attractively simple, and avoid spurious ranking of institutions into 'league tables'.",
+        "authors": [
+          "David J. Spiegelhalter"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "bradley",
+        "title": "RANK ANALYSIS OF INCOMPLETE BLOCK DESIGNS: THE METHOD OF PAIRED COMPARISONS",
+        "text": "The foundational paired-comparison probability model defines the modeling unit. It does not establish that repeated rows from one court case are independent observations.",
+        "url": "https://doi.org/10.1093/biomet/39.3-4.324",
+        "role": "independent",
+        "sourceGroup": "Bradley and Terry paired-comparison model",
+        "claims": [
+          "rows"
+        ],
+        "stance": "UNKNOWN",
+        "year": 1952,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_bradley_openalex.json",
+        "annotationBasis": "The foundational paired-comparison probability model defines the modeling unit. It does not establish that repeated rows from one court case are independent observations.",
+        "sourceAbstract": "",
+        "authors": [
+          "RALPH ALLAN BRADLEY",
+          "Milton E. Terry"
+        ],
+        "independenceNote": "Distinct original research team; shared authors are assigned the same group. This is not a claim of independent replication of every cited result."
+      },
+      {
+        "id": "frlp",
+        "title": "CourtListener: original API documentation",
+        "text": "CourtListener documents case, docket and opinion objects. This public schema is a provenance entry point; no individual docket receipt is inferred for the local aggregate.",
+        "url": "https://www.courtlistener.com/help/api/rest/",
+        "role": "independent",
+        "sourceGroup": "Free Law Project",
+        "claims": [
+          "external"
+        ],
+        "stance": "UNKNOWN",
+        "year": 2026,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_frlp.json",
+        "annotationBasis": "CourtListener documents case, docket and opinion objects. This public schema is a provenance entry point; no individual docket receipt is inferred for the local aggregate."
+      },
+      {
+        "id": "laird",
+        "title": "Random-Effects Models for Longitudinal Data",
+        "text": "Original random-effects models distinguish observations within groups from independently sampled groups. The methodological unit matters when repeated rows originate from one case.",
+        "url": "https://doi.org/10.2307/2529876",
+        "role": "primary",
+        "sourceGroup": "Laird and Ware mixed-effects model team",
+        "claims": [
+          "small"
+        ],
+        "stance": "SUPPORTS",
+        "year": 1982,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": true,
+        "provider": "Public original record",
+        "rawSource": "v2_laird_openalex.json",
+        "annotationBasis": "Original random-effects models distinguish observations within groups from independently sampled groups. The methodological unit matters when repeated rows originate from one case."
+      },
+      {
+        "id": "morris",
+        "title": "Parametric Empirical Bayes Inference: Theory and Applications",
+        "text": "Parametric empirical Bayes theory provides a framework for partial pooling and its uncertainty. This method is not an external replication of the judicial sample.",
+        "url": "https://doi.org/10.1080/01621459.1983.10477920",
+        "role": "independent",
+        "sourceGroup": "Efron and Morris empirical Bayes team",
+        "claims": [
+          "small"
+        ],
+        "stance": "SUPPORTS",
+        "year": 1983,
+        "funders": [],
+        "fundingKnown": false,
+        "conflicted": false,
+        "independenceConfirmed": false,
+        "provider": "Public source",
+        "rawSource": "v2_morris_openalex.json",
+        "annotationBasis": "Parametric empirical Bayes theory provides a framework for partial pooling and its uncertainty. This method is not an external replication of the judicial sample."
+      }
+    ]
+  }
+]
