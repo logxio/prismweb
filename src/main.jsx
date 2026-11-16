@@ -42,7 +42,6 @@ const SHORT_CLAIMS={shell:'2022 UK Clean-Energy Ads',offsets:'Forest Offset Addi
 const shortClaim=c=>SHORT_CLAIMS[c.id]||(c.text.length<=38?c.text:c.text.split(/\s+/).slice(0,5).join(' ').replace(/[.,;:]+$/,'')+'…')
 const LIVE_LANES=providers.map(p=>p.name),HOST_LANES={'doi.org':'DOI','clinicaltrials.gov':'CT.gov','sec.gov':'SEC','europepmc.org':'Europe PMC','pubmed.ncbi.nlm.nih.gov':'PubMed','en.wikipedia.org':'Wikipedia','wikidata.org':'Wikidata'}
 const lane=e=>{if(LIVE_LANES.includes(e.provider))return e.provider;if(!/^https?:/.test(e.url))return 'Archive';const h=new URL(e.url).hostname.replace(/^www\./,'');return HOST_LANES[h]||h}
-function HumanActions({onCopy,onShare,onHTML,onJSON,disabled}){return <div className="human-actions" aria-label="Human actions"><button className="copy-brief" onClick={onCopy}>Copy Markdown to GPT · Claude · Gemini</button><div><button aria-label="Share Visual Card" onClick={onShare}>Share Card</button><button onClick={onHTML} disabled={disabled}>Save HTML</button><button onClick={onJSON} disabled={disabled}>Export JSON</button></div></div>}
 function ToolOutput({result,docs}){
  const data=result.structuredContent||{}
  let content
@@ -54,7 +53,7 @@ function ToolOutput({result,docs}){
  return <div className="tool-output" data-testid="tool-result" data-tool={result.name} aria-live="polite">{content}</div>
 }
 function App(){
- const [dossiers,setDossiers]=useState([]),[dossier,setDossier]=useState(null),[mode,setMode]=useState('reader'),[query,setQuery]=useState(''),[docs,setDocs]=useState([]),[w,setW]=useState(vector('')),[events,setEvents]=useState([]),[strip,setStrip]=useState(false),[minYear,setMinYear]=useState(0),[maxYear,setMaxYear]=useState(9999),[selected,setSelected]=useState(null),[providerStates,setProviderStates]=useState({}),[notice,setNotice]=useState(''),[timing,setTiming]=useState(null),[details,setDetails]=useState(null),[busy,setBusy]=useState(false)
+ const [dossiers,setDossiers]=useState([]),[dossier,setDossier]=useState(null),[mode,setMode]=useState('investigator'),[query,setQuery]=useState(''),[docs,setDocs]=useState([]),[w,setW]=useState(vector('')),[events,setEvents]=useState([]),[strip,setStrip]=useState(false),[minYear,setMinYear]=useState(0),[maxYear,setMaxYear]=useState(9999),[selected,setSelected]=useState(null),[providerStates,setProviderStates]=useState({}),[notice,setNotice]=useState(''),[timing,setTiming]=useState(null),[details,setDetails]=useState(null),[busy,setBusy]=useState(false)
  const [auditOpen,setAuditOpen]=useState(false),[auditText,setAuditText]=useState(''),[auditRows,setAuditRows]=useState([]),[editorial,setEditorial]=useState({}),[manifest,setManifest]=useState(null),[verification,setVerification]=useState(null),[tamper,setTamper]=useState(null),[auditError,setAuditError]=useState(''),[toolName,setToolName]=useState('prismweb_decompose_and_audit'),[toolInput,setToolInput]=useState(''),[toolResult,setToolResult]=useState(null),[stream,setStream]=useState({firstRenderMs:null,updates:[]})
  const [lens,setLens]=useState('Standard'),[palette,setPalette]=useState(false),[workerStatus,setWorkerStatus]=useState(false),[workerResult,setWorkerResult]=useState(null),[workerTiming,setWorkerTiming]=useState(null),[graphView,setGraphView]=useState('flow'),[activeClaim,setActiveClaim]=useState(null),[roleFilter,setRoleFilter]=useState(null),[searchOpen,setSearchOpen]=useState(false)
  const [shareOpen,setShareOpen]=useState(false)
@@ -143,12 +142,17 @@ function App(){
  function openSearch(){setSearchOpen(true);setTimeout(()=>document.getElementById('web-search')?.focus(),30)}
  function probe(c){const q=coreTerms(c.text)||clean(c.text);setQuery(q);search(null,q)}
  async function copyMarkdown(){try{await navigator.clipboard.writeText(markdownBrief(dossier,evidence,label));setNotice('Markdown copied for GPT · Claude · Gemini')}catch(e){setNotice('Copy Markdown: '+e.message)}}
- const actions=<HumanActions onCopy={copyMarkdown} onShare={()=>setShareOpen(true)} onHTML={exportHTML} onJSON={exportJSON} disabled={busy||(auditOpen&&auditRows.some(r=>!editorial[r.id]))}/>
  const pickCommand=it=>{setPalette(false);it.run()}
  if(!dossier)return <main className="loading">{notice||'Loading public evidence'}</main>
  return <><VisionFilters/><div className="app" style={{filter:lens==='Standard'?undefined:`url(#vision-${lens})`}} onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();importFile(e.dataTransfer.files[0])}}>
   <main>
-  <Dispersion title={dossier.title} evidence={evidence} strip={strip} roleFilter={roleFilter} setRoleFilter={setRoleFilter}/>
+  <Dispersion title={dossier.title} evidence={evidence} strip={strip} roleFilter={roleFilter} setRoleFilter={setRoleFilter}>
+   <nav className="masthead-actions" aria-label="Views and fact check">
+    <button type="button" aria-label="Reader Brief" aria-pressed={mode==='reader'} onClick={()=>setMode('reader')}>Reading View</button>
+    <button type="button" aria-label="Investigator OSINT" aria-pressed={mode==='investigator'} onClick={()=>setMode('investigator')}>Deep Dive &amp; Map</button>
+    <button type="button" aria-label="Paste / Audit Paragraph ↗" onClick={openAudit}>Sentence Fact Check ↗</button>
+   </nav>
+  </Dispersion>
   {dossier.id==='live'&&<Waterfall states={providerStates} stream={stream} busy={busy}/>}
   <div className={'workspace '+mode}>
    <aside className="claims-panel">
@@ -157,7 +161,6 @@ function App(){
      <input id="web-search" name="query" required aria-label="Search the open Web" placeholder="Search a topic or paste a URL…" value={query} onChange={e=>setQuery(e.target.value)}/>
      <button aria-label="Run open Web search" type="submit">↵</button>
     </form>
-    {actions}
     <nav className="dossiers" aria-label="Public evidence dossiers">{dossiers.map((d,i)=><button key={d.id} aria-label={d.label} aria-pressed={dossier.id===d.id} onClick={()=>choose(d)}><span>0{i+1}</span>{d.short}</button>)}</nav>
     <RailMetrics evidence={yearEvidence} claims={dossier.claims} strip={strip} setStrip={()=>setStrip(x=>!x)}/>
     <div className="section-heading"><h2>Checkpoints</h2><span className="auto-verification" data-testid="auto-verified" data-tip="Checks that this evidence copy is intact. Review the sources to judge each claim.">{verification?.valid&&manifest?'✓ Auto-Verified':busy?'Collecting…':'Signing…'}</span>{activeClaim&&<button type="button" className="clear-claim" onClick={()=>setActiveClaim(null)}>All ({dossier.claims.length})</button>}</div>
@@ -180,6 +183,6 @@ function App(){
   </div><footer className="stealth-bar"><span>{notice||(timing!==null?timing.toFixed(2)+' ms':'Ready')}</span><VisionLens lens={lens} setLens={setLens}/></footer></main>{notice&&<div className="confirmation-toast" role="status" data-testid="status">{notice}<button aria-label="Dismiss notification" onClick={()=>setNotice('')}>✕</button></div>}{shareOpen&&<ShareCard dossier={dossier} evidence={evidence} label={label} onClose={()=>setShareOpen(false)} onNotice={setNotice}/>}<AuditDrawer open={auditOpen} onClose={()=>setAuditOpen(false)} text={auditText} setText={setAuditText} rows={auditRows} onAudit={runAudit} samples={paragraphSamples(dossiers)} editorial={editorial} setEditorial={setEditorial} evidence={evidence} onSign={exportJSON} onVerify={verifyCurrent} manifest={manifest} verification={verification} tamper={tamper} onTamper={testTamper} error={auditError}/><input hidden type="file" ref={input} accept=".json,.csv" onChange={e=>importFile(e.target.files[0])}/>
  <CommandPalette open={palette} items={commands} onClose={()=>setPalette(false)} onPick={pickCommand} webSearch={q=>({id:'web:'+q,kind:'Web search',label:'Search the open Web: '+q,run:()=>{setQuery(q);search(null,q)}})}/></div>
  {floatingTip&&<div ref={tipRef} role="tooltip" className="floating-tip" style={{position:'fixed',...tipPosition,zIndex:1200}}>{floatingTip.text}</div>}
- <OrbDock mode={mode} setMode={setMode} onAudit={openAudit}/></>
+ <OrbDock onCopy={copyMarkdown} onShare={()=>setShareOpen(true)} onHTML={exportHTML} onJSON={exportJSON} disabled={busy||(auditOpen&&auditRows.some(r=>!editorial[r.id]))}/></>
 }
 createRoot(document.getElementById('root')).render(<App/> )

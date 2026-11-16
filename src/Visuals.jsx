@@ -20,7 +20,7 @@ function useColumnTargets(ref){
  return geo
 }
 function beamPath(sx,ey,lane,x){const bend=Math.min(10,H-lane-2);return `M${sx},${ey} C${sx+18},${ey} ${sx+18},${lane} ${sx+36},${lane} L${x-bend},${lane} Q${x},${lane} ${x},${lane+bend} L${x},${H}`}
-export function Dispersion({title,evidence,strip,roleFilter,setRoleFilter}){
+export function Dispersion({title,evidence,strip,roleFilter,setRoleFilter,children}){
  const ref=useRef(null),geo=useColumnTargets(ref)
  const counts=Object.fromEntries(ROLES.map(r=>[r,evidence.filter(e=>e.role===r).length])),n=Math.max(1,evidence.length)
  const {sx=0,ey=0}=geo?.prism||{}
@@ -41,6 +41,7 @@ export function Dispersion({title,evidence,strip,roleFilter,setRoleFilter}){
     <path d="M12 6L7 17" fill="none" stroke="#FFFFFF" strokeWidth="1.2" strokeLinecap="round" opacity=".7"/>
    </svg></a>
    <h1 className="sr-only">{title}</h1>
+   {children}
   </div>
  </section>
 }
