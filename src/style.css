@@ -33,7 +33,7 @@ main{max-width:1920px;margin:auto;padding:0 28px;--rail-l:256px;--rail-r:420px;-
 .beam.self text{fill:var(--orange-ink)}
 .masthead{grid-column:1 / -1;min-width:0;display:flex;align-items:center;justify-content:space-between;position:relative;pointer-events:none}
 .masthead>*{pointer-events:auto}
-.masthead-actions{display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap;margin-left:auto}
+.masthead-actions{flex-shrink:0;min-height:32px;padding-top:8px;display:flex;align-items:center;justify-content:flex-end;gap:6px;flex-wrap:wrap;margin-left:auto}
 .masthead-actions button{padding:6px 11px;border-radius:999px;background:#fff;box-shadow:var(--card-shadow);font-size:11px;font-weight:600;white-space:nowrap}
 .masthead-actions button[aria-pressed=true]{background:var(--ink);color:#fff}
 .brand{display:inline-flex;align-items:center;gap:4px;font-size:24px;line-height:28px;font-weight:820;letter-spacing:.04em;color:#0F172A;white-space:nowrap}
@@ -386,7 +386,7 @@ footer.stealth-bar .vision-lens button{padding:1px 3px;font-size:9px}
 .orb-dock.open .orb.satellite{opacity:1;pointer-events:auto;transform:translate(var(--x),var(--y)) scale(1)}
 .orb.satellite.active{color:#fff;border-color:#38A3E0;box-shadow:inset 0 0 0 3px #0F172A,inset 0 0 0 4px #38A3E066,0 10px 26px -8px #0F172A99}
 .orb.satellite.active:after{content:'';position:absolute;bottom:-6px;left:50%;width:4px;height:4px;margin-left:-2px;border-radius:50%;background:#38A3E0}
-.orb-tip{position:absolute;right:calc(100% + 12px);top:50%;bottom:auto;left:auto;transform:translateY(-50%);width:274px;padding:6px 10px;border-radius:999px;background:#0F172A;border:1px solid #FFFFFF47;box-shadow:0 4px 12px #0F172A26;font-size:11px;font-weight:600;letter-spacing:.01em;color:#F8FAFC;text-align:right;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity 140ms}
+.orb-tip{position:absolute;right:calc(100% + 12px);top:50%;bottom:auto;left:auto;transform:translateY(-50%);width:max-content;padding:6px 10px;border-radius:999px;background:#0F172A;border:1px solid #FFFFFF47;box-shadow:0 4px 12px #0F172A26;font-size:11px;font-weight:600;letter-spacing:.01em;color:#F8FAFC;text-align:right;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity 140ms}
 .orb-dock.open .orb-tip,.orb:hover .orb-tip,.orb:focus-visible .orb-tip{opacity:1;transform:translateY(-50%)}
 .orb-search{position:absolute;right:0;bottom:72px;width:460px;pointer-events:auto}
 .orb-search[hidden]{display:none}

@@ -54,7 +54,7 @@ export function RailMetrics({evidence,claims,strip,setStrip}){
    <div className="rail-cell" data-tip="Share of contradictory records, with evidence smoothing"><span>Claim Gap</span>{metric(label.discrepancy,full.discrepancy)}</div>
    <div className="rail-cell" data-tip="Share of original records in the current year range"><span>Primary Proof</span>{metric(label.primaryRatio,full.primaryRatio,true)}</div>
   </div>
-  <label className={'cred-strip'+(strip?' active':'')}><input type="checkbox" className="sr-only" data-testid="strip-coi" aria-label="Hide company PR and funded sources" checked={strip} onChange={setStrip}/>{strip?'Hidden '+coiCount+' PR sources · Show all':'Hide '+coiCount+' company PR & funded sources'}</label>
+  <label className={'cred-strip'+(strip?' active':'')}><input type="checkbox" className="sr-only" data-testid="strip-coi" aria-label="Hide company PR and funded sources" checked={strip} onChange={setStrip}/>{strip?'Hidden '+coiCount+' PR & funded · Show all':'Hide '+coiCount+' company PR & funded sources'}</label>
  </div>
 }
 export function HyperplaneXRay({terms,events}){return <section className="hyperplane-xray" data-testid="hyperplane-xray" hidden={events.length===0}>{events.length>0&&<div className="xray-bar"><div className="term-pills">{terms.boosted.slice(0,3).map(t=><i key={t.term} className="pill pos">+{t.term}</i>)}{terms.suppressed.slice(0,3).map(t=><i key={t.term} className="pill neg">−{t.term}</i>)}</div></div>}</section>}

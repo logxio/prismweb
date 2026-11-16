@@ -109,13 +109,13 @@ function App(){
   const record={status:auditRows.length&&auditRows.every(r=>editorial[r.id])?'Human dispositions recorded':'Editorial review pending',paragraph:auditText,sentences:auditRows.map(r=>({...r,editorial:editorial[r.id]}))}
   const generation=signGeneration.current,p=await signReview(dossier.title,dossier.claims,evidence,events,record),verified=await verifyManifest(p);if(generation!==signGeneration.current)throw new Error('Snapshot changed. Export the current view again.');setManifest(p);setVerification(verified);setTamper(null);return p
  }
- async function exportJSON(){try{const p=await createSigned();download('prismweb-claimreview.json',JSON.stringify(p,null,2),'application/ld+json');setNotice('Signed ClaimReview JSON-LD exported')}catch(e){setAuditError(e.message);setNotice(e.message)}}
+ async function exportJSON(){try{const p=await createSigned();download('touchstone-claimreview.json',JSON.stringify(p,null,2),'application/ld+json');setNotice('Signed ClaimReview JSON-LD exported')}catch(e){setAuditError(e.message);setNotice(e.message)}}
  async function testTamper(){if(!manifest)return;const bad=structuredClone(manifest);bad.prismweb.evidence[0].text+=' Altered snippet.';const r=await verifyManifest(bad);setTamper(r);return r}
  async function verifyCurrent(){if(!manifest)return;const result=await verifyManifest(manifest);setVerification(result);setNotice((result.valid?'Signature verified in ':'Verification failed in ')+result.elapsedMs.toFixed(3)+' ms');return result}
  async function exportHTML(){try{
   const p=await createSigned(),escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;')
   const text='<!doctype html><html lang="en"><meta charset="utf-8"><title>'+escape(dossier.title)+'</title><style>body{max-width:1000px;margin:45px auto;font:16px/1.6 system-ui;color:#0F172A}article{padding:20px;background:#F8FAFC;margin:15px 0}h1{font-size:36px}</style><h1>'+escape(dossier.title)+'</h1><p>Evidence organized for human judgment.</p>'+dossier.claims.map(c=>'<h2>'+escape(c.text)+'</h2><p>'+claimStatus(c,evidence).status+'</p>').join('')+evidence.map(e=>'<article><a href="'+escape(e.url)+'">'+escape(e.title)+'</a><p>'+escape(e.text)+'</p><p>'+escape(e.sourceGroup)+' | '+escape(e.funders.map(f=>f.name).join(', ')||'Funding unknown')+'</p></article>').join('')+'<script type="application/ld+json">'+JSON.stringify(p).replaceAll('<','\\u003c')+'</script></html>'
-  download('prismweb-investigation.html',text,'text/html');setNotice('Signed HTML investigation exported')
+  download('touchstone-investigation.html',text,'text/html');setNotice('Signed HTML investigation exported')
  }catch(e){setNotice(e.message)}}
  handlers.current={
   prismweb_decompose_and_audit:({text})=>{const sample=paragraphSamples(dossiers).find(s=>s.text===text),source=sample?dossiers.find(d=>d.id===sample.id):dossier,sourceEvidence=sample?source.evidence:evidence;runAudit(text,sample?.id);return {plan:auditParagraph(text,source,sourceEvidence),nutrition:nutrition(source.claims,sourceEvidence),abstention:'UNVERIFIED remains when source entailment or independent corroboration is missing',humanJudgmentRequired:true}},
@@ -146,12 +146,13 @@ function App(){
  if(!dossier)return <main className="loading">{notice||'Loading public evidence'}</main>
  return <><VisionFilters/><div className="app" style={{filter:lens==='Standard'?undefined:`url(#vision-${lens})`}} onDragOver={e=>e.preventDefault()} onDrop={e=>{e.preventDefault();importFile(e.dataTransfer.files[0])}}>
   <main>
-  <Dispersion title={dossier.title} evidence={evidence} strip={strip} roleFilter={roleFilter} setRoleFilter={setRoleFilter}>
    <nav className="masthead-actions" aria-label="Views and fact check">
     <button type="button" aria-label="Reader Brief" aria-pressed={mode==='reader'} onClick={()=>setMode('reader')}>Reading View</button>
     <button type="button" aria-label="Investigator OSINT" aria-pressed={mode==='investigator'} onClick={()=>setMode('investigator')}>Deep Dive &amp; Map</button>
     <button type="button" aria-label="Paste / Audit Paragraph ↗" onClick={openAudit}>Sentence Fact Check ↗</button>
    </nav>
+  <Dispersion title={dossier.title} evidence={evidence} strip={strip} roleFilter={roleFilter} setRoleFilter={setRoleFilter}>
+
   </Dispersion>
   {dossier.id==='live'&&<Waterfall states={providerStates} stream={stream} busy={busy}/>}
   <div className={'workspace '+mode}>

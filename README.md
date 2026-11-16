@@ -13,6 +13,6 @@ Four WebMCP tools expose audit, nutrition, relevance feedback and signature veri
 Wikipedia and Wikidata immediately render their returned evidence. OpenAlex and Europe PMC asynchronously merge academic records and funding without clearing earlier source IDs. Per-provider status and first-render timing remain visible. Each provider has a bounded request and one visible retry. Citations, revision comments, entity properties and full-text links remain available inside source details.
 
 
-Live studio: https://yansu.me/prismweb/
+Live studio: https://yansu.me/touchstone/
 
-Video: https://yansu.me/prismweb/video.mp4
+Video: https://yansu.me/touchstone/video.mp4
